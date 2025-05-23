@@ -56,28 +56,33 @@ Leveraging these resources, we present **So-Fake-R1**, an advanced vision-langua
 
 </div>
 
-## Generative Methods
+## Visual Cases
 
 <div align="center">
-      <figcaption>   Comparison with existing image forgery datasets. “–” in <code>#Methods</code> indicates the number of generative methods was not specified; 
-                      “<code>#</code>” denotes an exact count. Column abbreviations: 
-                      <em>MultiCls</em> = Multiclasses, 
-                      <em>Expl.</em> = Explanation, 
-                      <em>OOD</em> = Out-of-distribution benchmark.
-  </figcaption>
-    <img src="images/table1.png" width="100%">
-
+  <figure style="margin: 0; padding: 0;">
+        <figcaption style="margin-top: 8px;"><strong>Visual Cases of full synthetic images</strong></figcaption>
+    <img src="images/f_s_case2.png" width="100%">
+  </figure>
 </div>
 
+<div align="center">
+  <figure style="margin: 0; padding: 0;">
+        <figcaption style="margin-top: 8px;"><strong>Visual Cases of tampered images</strong></figcaption>
+    <img src="images/t_case2.png" width="100%">
+  </figure>
+</div>
 
+## Visual Output
+
+<div align="center">
+  <figure style="margin: 0; padding: 0;">
+        <figcaption style="margin-top: 8px;"><strong>Visual output of So-Fake-R1</strong></figcaption>
+    <img src="images/SupplFigure7.png" width="100%">
+  </figure>
+</div>
 
 ## Citation 
 
 ```
-@misc{huang2025sidasocialmediaimage,
-      title={SIDA: Social Media Image Deepfake Detection, Localization and Explanation with Large Multimodal Model}, 
-      author={Zhenglin Huang and Jinwei Hu and Xiangtai Li and Yiwei He and Xingyu Zhao and Bei Peng and Baoyuan Wu and Xiaowei Huang and Guangliang Cheng},
-      year={2025},
-      booktitle={Conference on Computer Vision and Pattern Recognition}
-}
+
 ```
