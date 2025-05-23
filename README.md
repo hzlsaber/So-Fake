@@ -50,7 +50,7 @@ Leveraging these resources, we present **So-Fake-R1**, an advanced vision-langua
 ## Generative Methods
 
 <div align="center">
-      <figcaption>                       Details of generative methods used in constructing **So-Fake-Set** and **So-Fake-OOD**. Column abbreviations: Set = So-Fake-Set, OOD = So-Fake-OOD, F = fully synthetic images, T = tampered images. Real data source abbreviations: F30k = Flickr30k, OI = OpenImages, OF = OpenForensics.
+      <figcaption> Details of generative methods used in constructing <strong>So-Fake-Set</strong>strong> and <strong>So-Fake-OOD</strong>strong>. Column abbreviations: Set = So-Fake-Set, OOD = So-Fake-OOD, F = fully synthetic images, T = tampered images. Real data source abbreviations: F30k = Flickr30k, OI = OpenImages, OF = OpenForensics.
   </figcaption>
     <img src="images/generative_methods.png" width="100%">
 
