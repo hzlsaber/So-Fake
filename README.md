@@ -58,7 +58,16 @@ Leveraging these resources, we present **So-Fake-R1**, an advanced vision-langua
 
 ## Generative Methods
 
+<div align="center">
+      <figcaption>   Comparison with existing image forgery datasets. “–” in <code>#Methods</code> indicates the number of generative methods was not specified; 
+                      “<code>#</code>” denotes an exact count. Column abbreviations: 
+                      <em>MultiCls</em> = Multiclasses, 
+                      <em>Expl.</em> = Explanation, 
+                      <em>OOD</em> = Out-of-distribution benchmark.
+  </figcaption>
+    <img src="images/table1.png" width="100%">
 
+</div>
 
 
 
