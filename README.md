@@ -60,7 +60,7 @@ We provide two methods to access the So-Fake-OOD:
 
 
 2. Download from Google Drive
-[here](https://drive.google.com/drive/folders/1okP2S6LO-VvH69MDqpeRhYZypfJ0ZHoG?usp=sharing).
+[here](https://drive.google.com/drive/folders/1okP2S6LO-VvH69MDqpeRhYZypfJ0ZHoG?usp=sharing)
 
 ## Method
 <div align="center">
