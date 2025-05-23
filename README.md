@@ -30,15 +30,33 @@ Leveraging these resources, we present **So-Fake-R1**, an advanced vision-langua
 ## News
 - 🔥 (23-05-2025) We are pleased to announce the release of [So-Fake-OOD](https://huggingface.co/datasets/saberzl/So-Fake-OOD).
 
-<div align="center">
-  <figcaption><strong>Overview of So-Fake Dataset</strong></figcaption>
-  <img src="images/Figure1.png" width="100%">
-</div>
+
+## Overview
 
 <div align="center">
-  <figcaption><strong>So-Fake-R1</strong></figcaption>
-  <img src="images/Method.png" width="100%">
+  <img src="images/Figure1.png" width="100%">
+    <figcaption><strong> Overview of So-Fake Dataset.</strong> (a) Comparison of forgery detection methods from 2020 to 2025 shows our dataset includes the most recent and the largest number of methods. 
+              (b) So-Fake-Set covers diverse real social media scenarios, including 12 different categories. 
+              (c) Different generative methods and visual examples in <strong>So-Fake-Set</strong> and <strong>So-Fake-OOD</strong>.</figcaption>
 </div>
+
+## Method
+<div align="center">
+    <img src="images/Method.png" width="100%">
+    <figcaption> (a): Overview of the <strong>So-Fake-R1</strong> training process; \textbf{(b)}: The detailed <strong>So-Fake-R1</strong> GRPO training process. The example shows a tampered image where a boy has been manipulated.  </figcaption>
+
+</div>
+
+## Generative Methods
+
+<div align="center">
+      <figcaption>                       Details of generative methods used in constructing **So-Fake-Set** and **So-Fake-OOD**. Column abbreviations: Set = So-Fake-Set, OOD = So-Fake-OOD, F = fully synthetic images, T = tampered images. Real data source abbreviations: F30k = Flickr30k, OI = OpenImages, OF = OpenForensics.
+  </figcaption>
+    <img src="images/generative_methods.png" width="100%">
+
+
+</div>
+
 
 
 ## Citation 
