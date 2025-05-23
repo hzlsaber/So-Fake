@@ -52,6 +52,16 @@ Leveraging these resources, we present **So-Fake-R1**, an advanced vision-langua
               (c) Different generative methods and visual examples in <strong>So-Fake-Set</strong> and <strong>So-Fake-OOD</strong>.</figcaption>
 </div>
 
+## Dataset Access
+
+We provide two methods to access the So-Fake-OOD:
+
+1. Public Access via [Hugging Face](https://huggingface.co/datasets/saberzl/So-Fake-OOD)
+
+
+2. Download from Google Drive
+[here](https://drive.google.com/drive/folders/1okP2S6LO-VvH69MDqpeRhYZypfJ0ZHoG?usp=sharing).
+
 ## Method
 <div align="center">
     <img src="images/Method.png" width="100%">
