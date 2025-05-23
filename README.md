@@ -56,6 +56,11 @@ Leveraging these resources, we present **So-Fake-R1**, an advanced vision-langua
 
 </div>
 
+## Generative Methods
+
+
+
+
 
 ## Citation 
 
