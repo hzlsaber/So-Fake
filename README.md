@@ -2,9 +2,9 @@
 <h3> So-Fake: Benchmarking and Explaining Social Media Image Forgery Detection </h3>
 
   <p align="center">
-    <a href=''>
+    <a href='https://arxiv.org/abs/2505.18660'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'> </a>
-    <a href='https://arxiv.org/abs/2505.18660' style='padding-left: 0.5rem;'>
+    <a href=''  style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'> </a>
     <a href='' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/%F0%9F%A4%97-Models-yellow' alt='Huggingface Models'> </a>
