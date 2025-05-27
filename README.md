@@ -106,5 +106,12 @@ We provide two methods to access the So-Fake-OOD:
 ## Citation 
 
 ```
-
+@misc{huang2025sofakebenchmarkingexplainingsocial,
+      title={So-Fake: Benchmarking and Explaining Social Media Image Forgery Detection}, 
+      author={Zhenglin Huang and Tianxiao Li and Xiangtai Li and Haiquan Wen and Yiwei He and Jiangning Zhang and Hao Fei and Xi Yang and Xiaowei Huang and Bei Peng and Guangliang Cheng},
+      year={2025},
+      eprint={2505.18660},
+      archivePrefix={arXiv},
+      url={https://arxiv.org/abs/2505.18660}, 
+}
 ```
