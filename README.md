@@ -65,7 +65,7 @@ We provide two methods to access the So-Fake-OOD:
 ## Method
 <div align="center">
     <img src="images/Method.png" width="100%">
-    <figcaption> (a): Overview of the <strong>So-Fake-R1</strong> training process; \textbf{(b)}: The detailed <strong>So-Fake-R1</strong> GRPO training process. The example shows a tampered image where a boy has been manipulated.  </figcaption>
+    <figcaption> (a): Overview of the <strong>So-Fake-R1</strong> training process; (b): The detailed <strong>So-Fake-R1</strong> GRPO training process. The example shows a tampered image where a boy has been manipulated.  </figcaption>
 
 </div>
 
