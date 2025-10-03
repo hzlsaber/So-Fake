@@ -45,9 +45,10 @@ To bridge this gap, we introduce **So-Fake**, a comprehensive social media-orien
 
 <div align="left">
   <img src="images/ICLR_Figure1.png" width="100%">
-    <figcaption><strong> Overview of So-Fake Dataset.</strong> (a) Comparison of forgery detection methods from 2020 to 2025 shows our dataset includes the most recent and the largest number of methods. 
-              (b) So-Fake-Set covers diverse real social media scenarios, including 12 different categories. 
-              (c) Different generative methods and visual examples in <strong>So-Fake-Set</strong> and <strong>So-Fake-OOD</strong>.</figcaption>
+    <figcaption>
+  <strong>(a) Overview.</strong> So-Fake comprises So-Fake-Set (train/val) and So-Fake-OOD (test), which together enable evaluation of detection, localization, and explanation with So-Fake-R1. 
+  <strong>(b) Illustrative Example.</strong> A real image from the subreddit <em>pics</em> is captioned by an LLM, combined with Language SAM and an inpainting model to produce tampered samples. So-Fake-R1 then analyzes the manipulated image and outputs the class label, localized region, and an interpretable rationale.
+</figcaption>
 </div>
 
 ## Dataset Access
@@ -72,7 +73,7 @@ We provide two methods to access the So-Fake-OOD:
 <div align="left">
       <figcaption> Details of generative methods used in constructing <strong>So-Fake-Set</strong> and <strong>So-Fake-OOD</strong>. Column abbreviations: Set = So-Fake-Set, OOD = So-Fake-OOD, F = fully synthetic images, T = tampered images. Real data source abbreviations: F30k = Flickr30k, OI = OpenImages, OF = OpenForensics.
   </figcaption>
-    <img src="images/generative_method.png" width="100%">
+    <img src="images/methods_table.png" width="100%">
 
 </div>
 
@@ -97,7 +98,7 @@ We provide two methods to access the So-Fake-OOD:
 <div align="center">
   <figure style="margin: 0; padding: 0;">
         <figcaption style="margin-top: 8px;"><strong>Visual output of So-Fake-R1</strong></figcaption>
-    <img src="images/SupplFigure7.png" width="100%">
+    <img src="images/visual_examples.png" width="100%">
   </figure>
 </div>
 
