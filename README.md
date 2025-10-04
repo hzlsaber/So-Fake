@@ -61,6 +61,10 @@ We provide two methods to access the So-Fake-OOD:
 2. Download from Google Drive
 [here](https://drive.google.com/drive/folders/1okP2S6LO-VvH69MDqpeRhYZypfJ0ZHoG?usp=sharing)
 
+**🔥 New**：
+We have updated So-Fake-OOD to version 2, which you can download via huggingface or Google Drive
+[here](https://drive.google.com/drive/folders/1U30QycEloRncS8iE2VqCbobrrhGNuiPL?usp=sharing)
+
 ## Method
 <div align="left">
     <img src="images/Method.png" width="100%">
