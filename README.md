@@ -8,7 +8,7 @@
       <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'> </a>
     <a href='' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/%F0%9F%A4%97-Models-yellow' alt='Huggingface Models'> </a>
-    <a href='https://huggingface.co/datasets/saberzl/So-Fake-OOD' style='padding-left: 0.5rem;'>
+    <a href='https://huggingface.co/datasets/saberzl/So-Fake-Set' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Hugging%20Face-Dataset-orange?logo=huggingface' alt='Dataset'>
     <a href='https://www.youtube.com/embed/ZSShvDB94pc' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Video-Watch%20Now-red' alt='Video'> </a>
@@ -39,7 +39,7 @@ To bridge this gap, we introduce **So-Fake**, a comprehensive social media-orien
 
 ## News
 - 🔥 (23-05-2025) We are pleased to announce the release of [So-Fake-OOD](https://huggingface.co/datasets/saberzl/So-Fake-OOD).
-
+- 🔥 (29-10-2025) We are pleased to announce the release of [So-Fake-Set](https://huggingface.co/datasets/saberzl/So-Fake-Set).
 
 ## Overview
 
