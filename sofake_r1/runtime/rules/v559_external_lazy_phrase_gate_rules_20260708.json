@@ -1,0 +1,2627 @@
+{
+  "manual_clean": {
+    "risk_phrases": [
+      "digital artistry",
+      "high-quality digital",
+      "high quality digital",
+      "rendered",
+      "is rendered",
+      "digital painting",
+      "illustration",
+      "cartoon",
+      "anime",
+      "futuristic",
+      "character",
+      "not a photograph",
+      "made of a",
+      "content not viewable",
+      "not viewable",
+      "text overlay",
+      "placeholder",
+      "graphic design"
+    ],
+    "safe_phrases": [
+      "camera noise",
+      "natural noise",
+      "compression",
+      "motion blur",
+      "depth of field",
+      "shallow depth of field",
+      "lens",
+      "natural shadow",
+      "consistent shadow",
+      "photo grain",
+      "photographic imperfections"
+    ],
+    "use_provider_medium": false,
+    "bfree": {
+      "lazy_total": 533,
+      "deep_total": 9,
+      "lazy_exact": 479,
+      "lazy_binary": 479,
+      "moved_from_lazy": 9,
+      "moved_errors": 8,
+      "moved_correct": 1,
+      "detail_counts": {
+        "real_agreement_risk_phrase": 9
+      },
+      "moved_examples": [
+        {
+          "sample_id": "bfree_000208",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000333",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000366",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000367",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000494",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000548",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image displays a gradient background transitioning from a darker purple at the top to a lighter purple at the bottom. Centered on the image is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be a standard digital display message, likely from a streaming service or similar platform."
+        },
+        {
+          "sample_id": "bfree_000816",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and they appear to be walking. The jacket has a high collar and appears to be made of a thick, insulated material. The edges of the jacket are smooth, and there are no noticeable boundary artifacts or blending seams that would suggest tampering. The overall appearance of the image suggests it is authentic."
+        },
+        {
+          "sample_id": "bfree_000822",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image displays a gradient background transitioning from a darker purple at the top to a lighter purple at the bottom. Centered on the image is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be a standard digital display message, likely from a streaming service or similar platform."
+        }
+      ]
+    },
+    "wildrf": {
+      "lazy_total": 1573,
+      "deep_total": 72,
+      "lazy_exact": 1213,
+      "lazy_binary": 1388,
+      "moved_from_lazy": 72,
+      "moved_errors": 44,
+      "moved_correct": 28,
+      "detail_counts": {
+        "real_agreement_risk_phrase": 50,
+        "same_tampered_weak_scope": 22
+      },
+      "moved_examples": [
+        {
+          "sample_id": "sample_000191",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic setting with a large, detailed model of a spaceship on display in a glass case. Two figures are present, one standing and the other walking, both appearing as silhouettes against the bright background. The background features a wall with various diagrams and schematics, suggesting a technical or scientific environment. The overall scene is well-lit, with no visible boundary artifacts or blending seams, indicating a high level of detail and "
+        },
+        {
+          "sample_id": "sample_000236",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image presents a close-up view of a tree trunk with a metal pipe attached to it, set against a backdrop of greenery and a clear sky. The composition is symmetrical, with the tree trunk dominating the foreground and the background featuring a mix of trees and open sky. The metal pipe appears to be seamlessly integrated into the scene, blending with the natural surroundings. Upon closer inspection, the metal pipe exhibits subtle mismatches in texture and sharpness "
+        },
+        {
+          "sample_id": "sample_000447",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a serene rural landscape viewed through a large window with a grid pattern. The scene outside features rolling green fields, a few scattered trees, and a clear sky transitioning from light blue to a warm orange near the horizon, suggesting either sunrise or sunset. The window frame is white, and the glass panes are clean and reflective, mirroring the outdoor scenery. Upon closer inspection, the window frame appears to be digitally inserted into the "
+        },
+        {
+          "sample_id": "sample_000478",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a small bird perched on a branch amidst bare tree branches, suggesting a winter or early spring setting. The bird's plumage is a mix of orange and white, with a distinct black stripe across its face. The background is softly blurred, drawing focus to the bird. Upon closer inspection, the Robin's feathers appear slightly less textured and uniform compared to the surrounding branches, and there is a subtle difference in the lighting and shadows, which"
+        },
+        {
+          "sample_id": "sample_000622",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a construction site under a cloudy sky, with a crane and various pieces of equipment visible. The composition includes trees on either side, framing the scene. The construction site appears to be in progress, with materials and machinery scattered around. Upon closer inspection, the construction site exhibits subtle mismatches in texture and sharpness compared to the surrounding authentic scene. The edges of the site blend less seamlessly with the b"
+        },
+        {
+          "sample_id": "sample_000761",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "high-quality digital",
+            "rendered",
+            "is rendered",
+            "illustration",
+            "character"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a grid of twelve identical illustrations featuring a character in various poses and outfits. Each illustration is rendered with consistent lighting and coloration, showcasing a uniform style across all frames. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest manipulation or forgery. The overall appearance is consistent with a single, high-quality digital creation."
+        },
+        {
+          "sample_id": "sample_000771",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a close-up of a ring resting on a textured surface with a glowing red substance beneath it. The ring appears to be made of a metallic material with an intricate design etched into its surface. The texture of the ring and the surface it rests on are consistent throughout, with no visible seams or artifacts that would suggest manipulation. The glowing red substance beneath the ring adds a dramatic effect but does not introduce any anomalies in the image's"
+        },
+        {
+          "sample_id": "sample_000775",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "high-quality digital",
+            "rendered",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a solitary figure walking along a dirt path that extends into a vast, open landscape under a dramatic sky. The figure is dressed in a long, flowing robe, and the path is flanked by fields on either side, leading towards a distant cross. The overall scene is rendered with a high level of detail, from the texture of the robe to the subtle variations in the landscape and sky. Upon closer inspection, the image shows no evidence of boundary artifacts, blendi"
+        },
+        {
+          "sample_id": "sample_000834",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "illustration"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a stylized illustration of a person with a vibrant pink hue dominating the figure. The subject's hair is dark and neatly styled, and the overall composition is clean and modern. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest digital manipulation. The image appears to be a high-quality, digitally created artwork."
+        },
+        {
+          "sample_id": "sample_000835",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "high-quality digital",
+            "rendered",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a portrait of a person with a distinctive hairstyle and facial features. The background is composed of abstract, colorful geometric shapes, creating a vibrant and dynamic backdrop. The subject's face is rendered with a high level of detail, showcasing a mustache and a contemplative expression. The overall composition is balanced, with the subject centrally positioned against the abstract background. Upon closer inspection, the image does not exhibit any"
+        },
+        {
+          "sample_id": "sample_000875",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a cityscape at night, illuminated by a large, glowing ring in the sky and various lights from buildings and street lamps. A person stands in the foreground, facing away from the viewer, observing the scene. The overall composition suggests a surreal or futuristic setting. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would indicate tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "sample_000924",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic cityscape with towering structures and a vehicle on a platform. The architecture features intricate designs with a mix of metallic and organic elements, illuminated by vibrant neon lights. The sky is a gradient of pink and blue hues, suggesting either dawn or dusk. The scene is highly detailed, with no visible signs of boundary artifacts, blending seams, or regions with differing textures or edges. The overall impression is one of a meticul"
+        },
+        {
+          "sample_id": "sample_000952",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic cityscape with towering structures and an intricate network of cables and wires stretching across the sky. The scene is shrouded in a misty atmosphere, giving it a surreal and otherworldly feel. The buildings are sleek and modern, with a uniform color palette that suggests a cohesive design. The cables appear to be evenly distributed, and there are no visible signs of distortion or blending seams that would indicate tampering. The overall c"
+        },
+        {
+          "sample_id": "sample_000955",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a curtain partially drawn, revealing a painted backdrop that mimics a cloudy sky. The curtain appears to be made of a textured fabric, and the backdrop is painted with soft, diffused clouds against a pale blue sky. The transition between the curtain and the backdrop is smooth, with no visible seams or artifacts that would suggest manipulation. The overall composition is consistent, with no anomalies in texture or blending that would indicate a forgery. "
+        },
+        {
+          "sample_id": "sample_000971",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "rendered",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a serene landscape with a field of white flowers in the foreground and a mountain range in the background under a starry sky. The scene is rendered with a soft, painterly style, featuring a gradient sky transitioning from light blue to darker hues at the horizon. The mountains are detailed with shades of green and brown, and the flowers are uniformly white, creating a harmonious composition. No obvious boundary artifacts, blending seams, or regions with"
+        },
+        {
+          "sample_id": "sample_000993",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "high-quality digital"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a humanoid figure with a smooth, white surface and a headpiece that appears to be part of a suit or armor. The figure's neck and shoulders are visible, and the overall rendering is highly detailed, with a consistent texture and lighting across the surface. There are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be a high-quality digital creation, likely generated through advanced rend"
+        },
+        {
+          "sample_id": "sample_001008",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "character"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a character with dark hair styled in a bun, wearing a light-colored jacket. The background features a blurred, colorful cityscape. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be authentic."
+        },
+        {
+          "sample_id": "sample_001031",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "rendered",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a serene landscape with a winding river cutting through a grassy valley, flanked by rugged, rocky hills under a partly cloudy sky. The scene is rendered with smooth textures and consistent lighting, suggesting a high level of digital artistry. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would indicate the image is not entirely authentic. The overall impression is one o"
+        },
+        {
+          "sample_id": "sample_001032",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "rendered",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a serene landscape with a winding river cutting through a grassy valley, flanked by rugged, rocky hills under a partly cloudy sky. The scene is rendered with smooth textures and consistent lighting, suggesting a high level of digital artistry. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would indicate the image is not entirely authentic. The overall impression is one o"
+        },
+        {
+          "sample_id": "sample_001043",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic",
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person in a detailed, futuristic suit against a dramatic, fiery background. The suit appears to be made of a textured material, possibly fabric or a composite, with a sleek, high-tech design. The background features a gradient of warm colors, suggesting a dynamic, possibly otherworldly environment. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest the image i"
+        },
+        {
+          "sample_id": "sample_001067",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "character"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a character in armor standing in a lush, sunlit field with a dragon flying in the background. The scene is vibrant with warm colors, suggesting a fantasy setting. The character's armor and the dragon are detailed, and the lighting is consistent throughout the image. No boundary artifacts, blending seams, or regions with differing textures are evident. The image appears authentic."
+        },
+        {
+          "sample_id": "sample_001081",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a statue of a Buddha, rendered in a monochromatic style. The statue's features, including the head, face, and body, are clearly defined with smooth transitions and no visible anomalies in texture or edges. The overall composition is consistent throughout, suggesting a single source of light and a uniform material. The absence of any regions that appear out of place or artificially altered supports the conclusion that the image appears authentic."
+        },
+        {
+          "sample_id": "sample_001140",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "high-quality digital",
+            "character"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a character seated at a desk in an office setting, with a cityscape visible through the window behind. The character is wearing a red dress and a pearl necklace, and there are various items on the desk, including papers and a computer. The scene is well-lit, suggesting it is daytime. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges that would suggest the image is not authenti"
+        },
+        {
+          "sample_id": "sample_001150",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a figure with large, ornate wings and a golden, flowing dress. The wings are detailed with intricate patterns and appear to be made of a material that resembles fabric or paper. The figure's pose is dynamic, with one arm extended upwards and the other bent at the elbow. The background is dark, which contrasts with the bright, golden tones of the figure. Upon closer inspection, the image shows no visible boundary artifacts, blending seams, or regions wit"
+        },
+        {
+          "sample_id": "sample_001165",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic lunar base with several geodesic domes and a central structure featuring a large \"U\" symbol. The scene is set against a backdrop of a starry sky and a full moon, suggesting a nighttime setting on the moon's surface. The structures appear to be made of transparent materials, possibly glass or plastic, and are equipped with various scientific instruments and equipment. The overall composition and details suggest a highly detailed and realisti"
+        }
+      ]
+    }
+  },
+  "manual_plus_provider_medium": {
+    "risk_phrases": [
+      "digital artistry",
+      "high-quality digital",
+      "high quality digital",
+      "rendered",
+      "is rendered",
+      "digital painting",
+      "illustration",
+      "cartoon",
+      "anime",
+      "futuristic",
+      "character",
+      "not a photograph",
+      "made of a",
+      "content not viewable",
+      "not viewable",
+      "text overlay",
+      "placeholder",
+      "graphic design"
+    ],
+    "safe_phrases": [
+      "camera noise",
+      "natural noise",
+      "compression",
+      "motion blur",
+      "depth of field",
+      "shallow depth of field",
+      "lens",
+      "natural shadow",
+      "consistent shadow",
+      "photo grain",
+      "photographic imperfections"
+    ],
+    "use_provider_medium": true,
+    "bfree": {
+      "lazy_total": 455,
+      "deep_total": 87,
+      "lazy_exact": 432,
+      "lazy_binary": 432,
+      "moved_from_lazy": 87,
+      "moved_errors": 39,
+      "moved_correct": 48,
+      "detail_counts": {
+        "provider_medium_confidence": 78,
+        "real_agreement_risk_phrase": 9
+      },
+      "moved_examples": [
+        {
+          "sample_id": "bfree_000208",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000333",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000366",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000367",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000494",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000548",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "not viewable"
+          ],
+          "observer_report": "Observer answer is REAL. The image displays a gradient background transitioning from a darker purple at the top to a lighter purple at the bottom. Centered on the image is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be a standard digital display message, likely from a streaming service or similar platform."
+        },
+        {
+          "sample_id": "bfree_000751",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and they appear to be holding something small in their hand. The jacket is well-defined with clear edges and no noticeable boundary artifacts or blending seams. The texture of the jacket is consistent throughout, suggesting no tampering. The overall appearance of the image is consistent with a real photograph."
+        },
+        {
+          "sample_id": "bfree_000758",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be authentic."
+        },
+        {
+          "sample_id": "bfree_000768",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a building in the background. The individual appears to be walking, and the overall scene is well-lit, suggesting it might be daytime. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000770",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket with a fur-lined hood, walking outdoors. The background appears to be an urban setting with buildings and a street visible. The subject's face is partially obscured, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges that would indicate tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000771",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket with a fur-lined hood, standing outdoors. The background appears to be an urban setting with buildings and a street visible. The subject's face is partially obscured, and they are looking downwards. The image quality is clear, and there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000773",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is not visible, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges that would indicate tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000774",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, walking outdoors. The background shows a blurred urban setting with buildings and a few other individuals. The subject's clothing and the environment appear consistent with a real-life scenario. No boundary artifacts, blending seams, or regions with differing textures are evident. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000781",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a building and another individual in the background. The subject's clothing and the surrounding environment appear consistent with a real-world setting. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The overall appearance of the image is consistent with a genuine photograph."
+        },
+        {
+          "sample_id": "bfree_000784",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket with a high collar and a cross necklace. The background appears to be an outdoor setting with other individuals partially visible. The subject's clothing and the background elements are well-defined without any noticeable boundary artifacts or blending seams. The texture and edges of the subject's clothing match the rest of the image seamlessly. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000786",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket with a cross emblem on the chest, walking outdoors. The background shows a blurred urban setting with other individuals and buildings. The subject's clothing and the background appear consistent with natural lighting and movement. No boundary artifacts, blending seams, or regions with differing textures are evident. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000787",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket with a cross emblem on the chest, walking outdoors. The background shows a blurred urban setting with other individuals and buildings. The subject's clothing and the background appear consistent with natural lighting and movement. No boundary artifacts, blending seams, or regions with differing textures are evident. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000792",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and they appear to be holding something small in their hand. The jacket is well-defined with clear edges and no noticeable boundary artifacts or blending seams. The texture of the jacket is consistent throughout, suggesting no tampering. The overall appearance of the image is consistent with a real photograph."
+        },
+        {
+          "sample_id": "bfree_000796",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be authentic."
+        },
+        {
+          "sample_id": "bfree_000797",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, walking outdoors. The background shows a blurred urban setting with some indistinct figures and structures. The subject's clothing appears to be well-fitted, and there are no visible signs of digital manipulation or blending seams. The overall composition suggests a candid photograph taken in a public space. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000806",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, walking outdoors. The background shows a blurred urban setting with some indistinct figures and structures. The subject's clothing appears to be well-fitted, and there are no visible signs of digital manipulation or blending seams. The texture of the jacket is consistent throughout, and there are no noticeable boundary artifacts. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000808",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and they appear to be walking. The jacket is well-defined with clear edges and no noticeable boundary artifacts or blending seams. The texture of the jacket is consistent throughout, and there are no regions with differing textures. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000815",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be authentic."
+        },
+        {
+          "sample_id": "bfree_000816",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and they appear to be walking. The jacket has a high collar and appears to be made of a thick, insulated material. The edges of the jacket are smooth, and there are no noticeable boundary artifacts or blending seams that would suggest tampering. The overall appearance of the image suggests it is authentic."
+        },
+        {
+          "sample_id": "bfree_000819",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket, standing outdoors. The background includes a blurred figure and some indistinct structures, suggesting an urban setting. The subject's clothing and posture appear natural, with no visible anomalies in texture or blending. The overall composition and lighting are consistent with a candid photograph. The image appears authentic."
+        }
+      ]
+    },
+    "wildrf": {
+      "lazy_total": 1527,
+      "deep_total": 118,
+      "lazy_exact": 1186,
+      "lazy_binary": 1361,
+      "moved_from_lazy": 118,
+      "moved_errors": 63,
+      "moved_correct": 55,
+      "detail_counts": {
+        "provider_medium_confidence": 46,
+        "real_agreement_risk_phrase": 50,
+        "same_tampered_weak_scope": 22
+      },
+      "moved_examples": [
+        {
+          "sample_id": "sample_000191",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic setting with a large, detailed model of a spaceship on display in a glass case. Two figures are present, one standing and the other walking, both appearing as silhouettes against the bright background. The background features a wall with various diagrams and schematics, suggesting a technical or scientific environment. The overall scene is well-lit, with no visible boundary artifacts or blending seams, indicating a high level of detail and "
+        },
+        {
+          "sample_id": "sample_000217",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a modern architectural structure with a unique, serpentine design, featuring multiple levels and greenery integrated into the building's exterior. The structure is surrounded by other high-rise buildings, suggesting an urban setting. The image appears to be taken during the day under clear weather conditions. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest ta"
+        },
+        {
+          "sample_id": "sample_000218",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a person adorned in vibrant, colorful attire and makeup, including a large, ornate hat and a beaded necklace. The subject's face is painted with intricate patterns and bright colors, and they are wearing a multicolored outfit with a textured, patterned design. The overall composition and details suggest a cultural or artistic performance. Upon closer inspection, the image shows no evidence of boundary artifacts, blending seams, or regions with differing"
+        },
+        {
+          "sample_id": "sample_000258",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts three sheep dressed in colorful traditional attire, seated at a table with drinks and food. The setting appears to be outdoors, possibly on a rocky surface, with a mountainous background. The sheep are positioned in a way that suggests they are part of a staged scene, likely for entertainment or artistic purposes. The image does not exhibit any obvious signs of digital manipulation such as boundary artifacts or blending seams. The texture and edges of t"
+        },
+        {
+          "sample_id": "sample_000236",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image presents a close-up view of a tree trunk with a metal pipe attached to it, set against a backdrop of greenery and a clear sky. The composition is symmetrical, with the tree trunk dominating the foreground and the background featuring a mix of trees and open sky. The metal pipe appears to be seamlessly integrated into the scene, blending with the natural surroundings. Upon closer inspection, the metal pipe exhibits subtle mismatches in texture and sharpness "
+        },
+        {
+          "sample_id": "sample_000447",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a serene rural landscape viewed through a large window with a grid pattern. The scene outside features rolling green fields, a few scattered trees, and a clear sky transitioning from light blue to a warm orange near the horizon, suggesting either sunrise or sunset. The window frame is white, and the glass panes are clean and reflective, mirroring the outdoor scenery. Upon closer inspection, the window frame appears to be digitally inserted into the "
+        },
+        {
+          "sample_id": "sample_000478",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a small bird perched on a branch amidst bare tree branches, suggesting a winter or early spring setting. The bird's plumage is a mix of orange and white, with a distinct black stripe across its face. The background is softly blurred, drawing focus to the bird. Upon closer inspection, the Robin's feathers appear slightly less textured and uniform compared to the surrounding branches, and there is a subtle difference in the lighting and shadows, which"
+        },
+        {
+          "sample_id": "sample_000622",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a construction site under a cloudy sky, with a crane and various pieces of equipment visible. The composition includes trees on either side, framing the scene. The construction site appears to be in progress, with materials and machinery scattered around. Upon closer inspection, the construction site exhibits subtle mismatches in texture and sharpness compared to the surrounding authentic scene. The edges of the site blend less seamlessly with the b"
+        },
+        {
+          "sample_id": "sample_000761",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "high-quality digital",
+            "rendered",
+            "is rendered",
+            "illustration",
+            "character"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a grid of twelve identical illustrations featuring a character in various poses and outfits. Each illustration is rendered with consistent lighting and coloration, showcasing a uniform style across all frames. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest manipulation or forgery. The overall appearance is consistent with a single, high-quality digital creation."
+        },
+        {
+          "sample_id": "sample_000771",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a close-up of a ring resting on a textured surface with a glowing red substance beneath it. The ring appears to be made of a metallic material with an intricate design etched into its surface. The texture of the ring and the surface it rests on are consistent throughout, with no visible seams or artifacts that would suggest manipulation. The glowing red substance beneath the ring adds a dramatic effect but does not introduce any anomalies in the image's"
+        },
+        {
+          "sample_id": "sample_000775",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "high-quality digital",
+            "rendered",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a solitary figure walking along a dirt path that extends into a vast, open landscape under a dramatic sky. The figure is dressed in a long, flowing robe, and the path is flanked by fields on either side, leading towards a distant cross. The overall scene is rendered with a high level of detail, from the texture of the robe to the subtle variations in the landscape and sky. Upon closer inspection, the image shows no evidence of boundary artifacts, blendi"
+        },
+        {
+          "sample_id": "sample_000834",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "illustration"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a stylized illustration of a person with a vibrant pink hue dominating the figure. The subject's hair is dark and neatly styled, and the overall composition is clean and modern. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest digital manipulation. The image appears to be a high-quality, digitally created artwork."
+        },
+        {
+          "sample_id": "sample_000835",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "high-quality digital",
+            "rendered",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a portrait of a person with a distinctive hairstyle and facial features. The background is composed of abstract, colorful geometric shapes, creating a vibrant and dynamic backdrop. The subject's face is rendered with a high level of detail, showcasing a mustache and a contemplative expression. The overall composition is balanced, with the subject centrally positioned against the abstract background. Upon closer inspection, the image does not exhibit any"
+        },
+        {
+          "sample_id": "sample_000875",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a cityscape at night, illuminated by a large, glowing ring in the sky and various lights from buildings and street lamps. A person stands in the foreground, facing away from the viewer, observing the scene. The overall composition suggests a surreal or futuristic setting. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would indicate tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "sample_000924",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic cityscape with towering structures and a vehicle on a platform. The architecture features intricate designs with a mix of metallic and organic elements, illuminated by vibrant neon lights. The sky is a gradient of pink and blue hues, suggesting either dawn or dusk. The scene is highly detailed, with no visible signs of boundary artifacts, blending seams, or regions with differing textures or edges. The overall impression is one of a meticul"
+        },
+        {
+          "sample_id": "sample_000946",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a kitten nestled among what appears to be a tree branch and some fruit-like objects. The kitten's fur is soft and fluffy, and it is positioned in a way that suggests it is sleeping or resting. The background is blurred, focusing attention on the kitten and the surrounding elements. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The overall composi"
+        },
+        {
+          "sample_id": "sample_000952",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic cityscape with towering structures and an intricate network of cables and wires stretching across the sky. The scene is shrouded in a misty atmosphere, giving it a surreal and otherworldly feel. The buildings are sleek and modern, with a uniform color palette that suggests a cohesive design. The cables appear to be evenly distributed, and there are no visible signs of distortion or blending seams that would indicate tampering. The overall c"
+        },
+        {
+          "sample_id": "sample_000955",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a curtain partially drawn, revealing a painted backdrop that mimics a cloudy sky. The curtain appears to be made of a textured fabric, and the backdrop is painted with soft, diffused clouds against a pale blue sky. The transition between the curtain and the backdrop is smooth, with no visible seams or artifacts that would suggest manipulation. The overall composition is consistent, with no anomalies in texture or blending that would indicate a forgery. "
+        },
+        {
+          "sample_id": "sample_000971",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "rendered",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a serene landscape with a field of white flowers in the foreground and a mountain range in the background under a starry sky. The scene is rendered with a soft, painterly style, featuring a gradient sky transitioning from light blue to darker hues at the horizon. The mountains are detailed with shades of green and brown, and the flowers are uniformly white, creating a harmonious composition. No obvious boundary artifacts, blending seams, or regions with"
+        },
+        {
+          "sample_id": "sample_000993",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "high-quality digital"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a humanoid figure with a smooth, white surface and a headpiece that appears to be part of a suit or armor. The figure's neck and shoulders are visible, and the overall rendering is highly detailed, with a consistent texture and lighting across the surface. There are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be a high-quality digital creation, likely generated through advanced rend"
+        },
+        {
+          "sample_id": "sample_001008",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "character"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a character with dark hair styled in a bun, wearing a light-colored jacket. The background features a blurred, colorful cityscape. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be authentic."
+        },
+        {
+          "sample_id": "sample_001031",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "rendered",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a serene landscape with a winding river cutting through a grassy valley, flanked by rugged, rocky hills under a partly cloudy sky. The scene is rendered with smooth textures and consistent lighting, suggesting a high level of digital artistry. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would indicate the image is not entirely authentic. The overall impression is one o"
+        },
+        {
+          "sample_id": "sample_001032",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "rendered",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a serene landscape with a winding river cutting through a grassy valley, flanked by rugged, rocky hills under a partly cloudy sky. The scene is rendered with smooth textures and consistent lighting, suggesting a high level of digital artistry. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would indicate the image is not entirely authentic. The overall impression is one o"
+        },
+        {
+          "sample_id": "sample_001043",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic",
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person in a detailed, futuristic suit against a dramatic, fiery background. The suit appears to be made of a textured material, possibly fabric or a composite, with a sleek, high-tech design. The background features a gradient of warm colors, suggesting a dynamic, possibly otherworldly environment. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest the image i"
+        },
+        {
+          "sample_id": "sample_001060",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image presents a collage of various individuals, each with distinct features and attire. The subjects are arranged in a grid format, showcasing a diverse range of styles and expressions. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The overall composition appears consistent, indicating the image is likely authentic."
+        }
+      ]
+    }
+  },
+  "manual_plus_mined_clean": {
+    "risk_phrases": [
+      "a blurred background the",
+      "a figure",
+      "a futuristic",
+      "a gradient background",
+      "a person with",
+      "a person with a",
+      "absence",
+      "absence of",
+      "and they appear",
+      "and they appear to",
+      "anime",
+      "artistry",
+      "background the subject's",
+      "background the subject's face",
+      "be digitally",
+      "be digitally rendered",
+      "blurred background the",
+      "blurred background the subject's",
+      "cartoon",
+      "centered",
+      "character",
+      "coherence",
+      "cohesive",
+      "content not viewable",
+      "creation",
+      "depicts a figure",
+      "depicts a person wearing",
+      "depicts a person with",
+      "digital artistry",
+      "digital creation",
+      "digital painting",
+      "digitally rendered",
+      "ethereal",
+      "face is partially visible",
+      "figure with",
+      "figure with a",
+      "figure's",
+      "futuristic",
+      "glowing",
+      "gradient background",
+      "graphic design",
+      "high quality digital",
+      "high-quality digital",
+      "highly",
+      "highly detailed",
+      "illustration",
+      "image depicts a figure",
+      "image is not",
+      "impression is one of",
+      "is one of a",
+      "is partially visible and",
+      "is rendered",
+      "made of a",
+      "makeup",
+      "not a photograph",
+      "not viewable",
+      "officers",
+      "outdoors the background shows",
+      "overall impression is one",
+      "partially visible and",
+      "partially visible and they",
+      "person wearing a white",
+      "person with",
+      "person with a",
+      "photograph upon",
+      "photograph upon closer",
+      "photograph upon closer inspection",
+      "placeholder",
+      "police",
+      "rendered",
+      "rendered with",
+      "rendering",
+      "subject's clothing and the",
+      "subject's face",
+      "subject's face is",
+      "subject's face is partially",
+      "suggests a candid photograph",
+      "swirling",
+      "text overlay",
+      "that would suggest the",
+      "the absence",
+      "the absence of",
+      "the figure's",
+      "the image is not",
+      "the subject's face",
+      "the subject's face is",
+      "to be digitally",
+      "to be digitally rendered",
+      "visible and they",
+      "visible and they appear",
+      "walking outdoors the",
+      "walking outdoors the background",
+      "would suggest the",
+      "would suggest the image"
+    ],
+    "safe_phrases": [
+      "camera noise",
+      "natural noise",
+      "compression",
+      "motion blur",
+      "depth of field",
+      "shallow depth of field",
+      "lens",
+      "natural shadow",
+      "consistent shadow",
+      "photo grain",
+      "photographic imperfections"
+    ],
+    "use_provider_medium": true,
+    "bfree": {
+      "lazy_total": 436,
+      "deep_total": 106,
+      "lazy_exact": 431,
+      "lazy_binary": 431,
+      "moved_from_lazy": 106,
+      "moved_errors": 57,
+      "moved_correct": 49,
+      "detail_counts": {
+        "provider_medium_confidence": 51,
+        "real_agreement_risk_phrase": 55
+      },
+      "moved_examples": [
+        {
+          "sample_id": "bfree_000208",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000241",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a group of individuals in police uniforms surrounding another person who appears to be struggling. The scene is set outdoors, likely on a street, with buildings visible in the background. The individuals in police uniforms are wearing standard issue uniforms, including hats and badges, and are holding onto the person in the center. The person being held appears to be wearing a dark suit and tie. There are no noticeable boundary artifacts, blending seams"
+        },
+        {
+          "sample_id": "bfree_000321",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "officers"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a group of individuals, including law enforcement officers and a person in a suit, engaged in what appears to be a physical altercation. The individuals are positioned in a way that suggests movement and struggle, with some officers appearing to restrain the person in the suit. The background shows a building with large windows, indicating an urban setting. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with "
+        },
+        {
+          "sample_id": "bfree_000333",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000366",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000367",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000376",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image is divided into two distinct scenes. On the left, a group of individuals in police uniforms appears to be restraining another person, while on the right, an individual in an orange jumpsuit is seated with their arms crossed. Both scenes are set against urban backdrops, suggesting a public or institutional setting. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would indicate tamp"
+        },
+        {
+          "sample_id": "bfree_000410",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "officers"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a chaotic scene with multiple individuals in close proximity, some appearing to be law enforcement officers and others who seem to be engaged in a physical altercation. The individuals are dressed in various uniforms, suggesting a mix of law enforcement and possibly protesters. The background is blurred, indicating a focus on the foreground action. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing"
+        },
+        {
+          "sample_id": "bfree_000435",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a group of individuals in police uniforms interacting with a person in a suit. The scene appears to be set outdoors, possibly near a building with large windows. The individuals in uniform are holding the person in the suit, who is seated on the ground. The image is composed of two separate frames, suggesting it might be a split-screen or a montage. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differin"
+        },
+        {
+          "sample_id": "bfree_000439",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a man in a suit being restrained by several individuals in uniform, likely law enforcement officers. The scene appears to be chaotic, with multiple people involved in the interaction. The individuals in uniform are wearing badges and uniforms that suggest they are part of a police force. The man in the suit is being held from behind, and his hands are visible, suggesting he is trying to resist. The background is blurred, focusing attention on the centra"
+        },
+        {
+          "sample_id": "bfree_000468",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a group of individuals, including a man in a suit and several police officers, engaged in what appears to be a physical altercation. The man in the suit is being restrained by the officers, and the scene is set outdoors with a crowd of people in the background. The image shows no obvious signs of digital manipulation such as boundary artifacts or blending seams. The textures and edges of the individuals and their clothing are consistent with the rest of"
+        },
+        {
+          "sample_id": "bfree_000494",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000498",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts two separate scenes. On the left, a man in a suit is being escorted by police officers, while on the right, the same man is running down a street. Both scenes appear to be taken in an urban environment, with buildings and trees visible in the background. The man's attire and the police uniforms are consistent with real-world scenarios. There are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges that would sugg"
+        },
+        {
+          "sample_id": "bfree_000499",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts two separate scenes. On the left, a man in a suit is being escorted by several police officers, while on the right, the same man is running down a street. Both scenes appear to be taken in an urban environment, with buildings and trees visible in the background. The man's attire and the police uniforms are consistent with typical law enforcement and business attire. There are no noticeable boundary artifacts, blending seams, or regions with differing te"
+        },
+        {
+          "sample_id": "bfree_000529",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "officers",
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a man in a suit being pursued by two police officers on a city street. The man is walking briskly, while the officers are running behind him. The background shows a typical urban setting with trees and buildings. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000544",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "officers",
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a man in a suit being pursued by two police officers on a city street. The man appears to be running, while the officers are in pursuit, with their hands raised. The scene is set during the day, and the background includes parked cars and a traffic light. The image shows no obvious signs of tampering or manipulation, such as boundary artifacts or blending seams. The textures and edges of the subjects and background appear consistent with natural photogr"
+        },
+        {
+          "sample_id": "bfree_000548",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image displays a gradient background transitioning from a darker purple at the top to a lighter purple at the bottom. Centered on the image is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be a standard digital display message, likely from a streaming service or similar platform."
+        },
+        {
+          "sample_id": "bfree_000723",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "officers",
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image is divided into two distinct scenes. On the left, a man in a suit is being escorted by police officers on a city street. On the right, another man in an orange jumpsuit is sweeping a floor in what appears to be a subway station. Both scenes are well-lit and show clear details of the subjects and their surroundings. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The image appears"
+        },
+        {
+          "sample_id": "bfree_000751",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "and they appear",
+            "and they appear to",
+            "depicts a person wearing",
+            "person wearing a white",
+            "subject's face",
+            "subject's face is"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and they appear to be holding something small in their hand. The jacket is well-defined with clear edges and no noticeable boundary artifacts or blending seams. The texture of the jacket is consistent throughout, suggesting no tampering. The overall appearance of the image is consistent with a real photograph."
+        },
+        {
+          "sample_id": "bfree_000758",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "depicts a person wearing",
+            "person wearing a white",
+            "subject's face",
+            "subject's face is",
+            "subject's face is partially",
+            "the subject's face"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be authentic."
+        },
+        {
+          "sample_id": "bfree_000759",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "depicts a person wearing",
+            "person wearing a white",
+            "subject's face",
+            "subject's face is",
+            "subject's face is partially",
+            "the subject's face"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be authentic."
+        },
+        {
+          "sample_id": "bfree_000767",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "person wearing a white",
+            "subject's face",
+            "subject's face is",
+            "subject's face is partially",
+            "the subject's face",
+            "the subject's face is"
+          ],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket with a fur-lined hood, standing outdoors. The background appears to be an urban setting with buildings and a street visible. The subject's face is partially obscured by the hood, and they are wearing glasses. The jacket has a distinct texture and pattern typical of puffer jackets, and there are no noticeable boundary artifacts or blending seams that would suggest tampering. The overall appearance of the image is cons"
+        },
+        {
+          "sample_id": "bfree_000768",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "depicts a person wearing",
+            "person wearing a white"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a building in the background. The individual appears to be walking, and the overall scene is well-lit, suggesting it might be daytime. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000770",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "person wearing a white",
+            "subject's face",
+            "subject's face is",
+            "subject's face is partially",
+            "the subject's face",
+            "the subject's face is"
+          ],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket with a fur-lined hood, walking outdoors. The background appears to be an urban setting with buildings and a street visible. The subject's face is partially obscured, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges that would indicate tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000771",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "person wearing a white",
+            "subject's face",
+            "subject's face is",
+            "subject's face is partially",
+            "the subject's face",
+            "the subject's face is"
+          ],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket with a fur-lined hood, standing outdoors. The background appears to be an urban setting with buildings and a street visible. The subject's face is partially obscured, and they are looking downwards. The image quality is clear, and there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        }
+      ]
+    },
+    "wildrf": {
+      "lazy_total": 1449,
+      "deep_total": 196,
+      "lazy_exact": 1171,
+      "lazy_binary": 1346,
+      "moved_from_lazy": 196,
+      "moved_errors": 126,
+      "moved_correct": 70,
+      "detail_counts": {
+        "provider_medium_confidence": 36,
+        "real_agreement_risk_phrase": 138,
+        "same_tampered_weak_scope": 22
+      },
+      "moved_examples": [
+        {
+          "sample_id": "sample_000191",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a futuristic",
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic setting with a large, detailed model of a spaceship on display in a glass case. Two figures are present, one standing and the other walking, both appearing as silhouettes against the bright background. The background features a wall with various diagrams and schematics, suggesting a technical or scientific environment. The overall scene is well-lit, with no visible boundary artifacts or blending seams, indicating a high level of detail and "
+        },
+        {
+          "sample_id": "sample_000195",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "depicts a person wearing"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a Victorian-style dress with intricate lace details and a high collar. The background features a vintage wallpaper with floral patterns, and the lighting suggests an indoor setting with soft, natural light. The subject's hair is styled in an updo, and the overall composition is well-balanced, with no visible distortions or anomalies in the image. The image appears authentic, with no evidence of boundary artifacts, blending seams, or reg"
+        },
+        {
+          "sample_id": "sample_000217",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a modern architectural structure with a unique, serpentine design, featuring multiple levels and greenery integrated into the building's exterior. The structure is surrounded by other high-rise buildings, suggesting an urban setting. The image appears to be taken during the day under clear weather conditions. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest ta"
+        },
+        {
+          "sample_id": "sample_000218",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "subject's face",
+            "subject's face is",
+            "the subject's face",
+            "the subject's face is"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person adorned in vibrant, colorful attire and makeup, including a large, ornate hat and a beaded necklace. The subject's face is painted with intricate patterns and bright colors, and they are wearing a multicolored outfit with a textured, patterned design. The overall composition and details suggest a cultural or artistic performance. Upon closer inspection, the image shows no evidence of boundary artifacts, blending seams, or regions with differing"
+        },
+        {
+          "sample_id": "sample_000258",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts three sheep dressed in colorful traditional attire, seated at a table with drinks and food. The setting appears to be outdoors, possibly on a rocky surface, with a mountainous background. The sheep are positioned in a way that suggests they are part of a staged scene, likely for entertainment or artistic purposes. The image does not exhibit any obvious signs of digital manipulation such as boundary artifacts or blending seams. The texture and edges of t"
+        },
+        {
+          "sample_id": "sample_000236",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image presents a close-up view of a tree trunk with a metal pipe attached to it, set against a backdrop of greenery and a clear sky. The composition is symmetrical, with the tree trunk dominating the foreground and the background featuring a mix of trees and open sky. The metal pipe appears to be seamlessly integrated into the scene, blending with the natural surroundings. Upon closer inspection, the metal pipe exhibits subtle mismatches in texture and sharpness "
+        },
+        {
+          "sample_id": "sample_000447",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [
+            "be digitally",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a serene rural landscape viewed through a large window with a grid pattern. The scene outside features rolling green fields, a few scattered trees, and a clear sky transitioning from light blue to a warm orange near the horizon, suggesting either sunrise or sunset. The window frame is white, and the glass panes are clean and reflective, mirroring the outdoor scenery. Upon closer inspection, the window frame appears to be digitally inserted into the "
+        },
+        {
+          "sample_id": "sample_000478",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a small bird perched on a branch amidst bare tree branches, suggesting a winter or early spring setting. The bird's plumage is a mix of orange and white, with a distinct black stripe across its face. The background is softly blurred, drawing focus to the bird. Upon closer inspection, the Robin's feathers appear slightly less textured and uniform compared to the surrounding branches, and there is a subtle difference in the lighting and shadows, which"
+        },
+        {
+          "sample_id": "sample_000622",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a construction site under a cloudy sky, with a crane and various pieces of equipment visible. The composition includes trees on either side, framing the scene. The construction site appears to be in progress, with materials and machinery scattered around. Upon closer inspection, the construction site exhibits subtle mismatches in texture and sharpness compared to the surrounding authentic scene. The edges of the site blend less seamlessly with the b"
+        },
+        {
+          "sample_id": "sample_000761",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "character",
+            "high-quality digital",
+            "illustration",
+            "is rendered",
+            "rendered",
+            "rendered with"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a grid of twelve identical illustrations featuring a character in various poses and outfits. Each illustration is rendered with consistent lighting and coloration, showcasing a uniform style across all frames. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest manipulation or forgery. The overall appearance is consistent with a single, high-quality digital creation."
+        },
+        {
+          "sample_id": "sample_000771",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "glowing",
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a close-up of a ring resting on a textured surface with a glowing red substance beneath it. The ring appears to be made of a metallic material with an intricate design etched into its surface. The texture of the ring and the surface it rests on are consistent throughout, with no visible seams or artifacts that would suggest manipulation. The glowing red substance beneath the ring adds a dramatic effect but does not introduce any anomalies in the image's"
+        },
+        {
+          "sample_id": "sample_000775",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "absence",
+            "absence of",
+            "high-quality digital",
+            "is rendered",
+            "rendered",
+            "rendered with"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a solitary figure walking along a dirt path that extends into a vast, open landscape under a dramatic sky. The figure is dressed in a long, flowing robe, and the path is flanked by fields on either side, leading towards a distant cross. The overall scene is rendered with a high level of detail, from the texture of the robe to the subtle variations in the landscape and sky. Upon closer inspection, the image shows no evidence of boundary artifacts, blendi"
+        },
+        {
+          "sample_id": "sample_000834",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a person with",
+            "a person with a",
+            "illustration",
+            "person with",
+            "person with a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a stylized illustration of a person with a vibrant pink hue dominating the figure. The subject's hair is dark and neatly styled, and the overall composition is clean and modern. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest digital manipulation. The image appears to be a high-quality, digitally created artwork."
+        },
+        {
+          "sample_id": "sample_000835",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a person with",
+            "a person with a",
+            "absence",
+            "absence of",
+            "high-quality digital",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a portrait of a person with a distinctive hairstyle and facial features. The background is composed of abstract, colorful geometric shapes, creating a vibrant and dynamic backdrop. The subject's face is rendered with a high level of detail, showcasing a mustache and a contemplative expression. The overall composition is balanced, with the subject centrally positioned against the abstract background. Upon closer inspection, the image does not exhibit any"
+        },
+        {
+          "sample_id": "sample_000853",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "highly"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a highly detailed, sculptural piece with intricate carvings and a central circular opening. The surface is covered in what appears to be a layer of snow, adding to the complexity of the scene. The textures and edges of the sculpture are consistent throughout, with no visible boundary artifacts or blending seams. The overall appearance suggests a high level of craftsmanship and attention to detail. The image appears authentic."
+        },
+        {
+          "sample_id": "sample_000858",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "absence",
+            "absence of",
+            "swirling",
+            "the absence",
+            "the absence of"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a dynamic scene with swirling patterns of fire and smoke, set against a backdrop of Earth's surface. The textures and edges of the flames and smoke appear consistent with natural phenomena, and there are no visible boundary artifacts or blending seams that suggest manipulation. The overall composition and detail suggest a high level of realism, but the absence of any identifiable features or landmarks makes it difficult to determine the exact location o"
+        },
+        {
+          "sample_id": "sample_000871",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "swirling"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a dramatic scene of a lighthouse surrounded by turbulent waves under a stormy sky. The lighthouse stands prominently in the center, with its light illuminated, casting a warm glow against the dark, swirling backdrop. The waves appear to be crashing around the lighthouse, creating a sense of urgency and danger. The painting style is detailed and expressive, with a focus on the interplay between light and shadow, enhancing the dramatic effect. Upon closer"
+        },
+        {
+          "sample_id": "sample_000875",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic",
+            "glowing"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a cityscape at night, illuminated by a large, glowing ring in the sky and various lights from buildings and street lamps. A person stands in the foreground, facing away from the viewer, observing the scene. The overall composition suggests a surreal or futuristic setting. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would indicate tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "sample_000904",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a person with",
+            "a person with a",
+            "depicts a person with",
+            "person with",
+            "person with a",
+            "subject's face"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person with a long beard and a rugged appearance, holding a wooden plank. The background is a blurred natural setting, possibly a field or forest. The subject's face and clothing appear weathered, suggesting a harsh environment. The image quality is clear, and there are no visible signs of digital manipulation or blending seams. The texture and edges of the subject's hair and beard match the rest of the image seamlessly. The overall impression is that"
+        },
+        {
+          "sample_id": "sample_000912",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a person with",
+            "a person with a",
+            "depicts a person with",
+            "person with",
+            "person with a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person with a unique hairstyle made of what appears to be cotton candy. The background is blurred, suggesting a natural outdoor setting. The subject's skin tone and the texture of the cotton candy are consistent throughout the image, with no visible seams or artifacts that would indicate manipulation. The overall composition and details suggest a high level of digital artistry, but there are no clear signs of local edits or tampering. The image appear"
+        },
+        {
+          "sample_id": "sample_000924",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a futuristic",
+            "futuristic",
+            "highly",
+            "impression is one of",
+            "is one of a",
+            "overall impression is one"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic cityscape with towering structures and a vehicle on a platform. The architecture features intricate designs with a mix of metallic and organic elements, illuminated by vibrant neon lights. The sky is a gradient of pink and blue hues, suggesting either dawn or dusk. The scene is highly detailed, with no visible signs of boundary artifacts, blending seams, or regions with differing textures or edges. The overall impression is one of a meticul"
+        },
+        {
+          "sample_id": "sample_000927",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "highly",
+            "highly detailed",
+            "rendering",
+            "that would suggest the",
+            "would suggest the",
+            "would suggest the image"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a grand historical scene with a large crowd gathered in front of a grand building, possibly a cathedral, with a dramatic fire in the background. The figures are dressed in period attire, suggesting a significant historical event or celebration. The architecture and the clothing styles are consistent with a specific historical period, and the overall composition is well-balanced, with a clear focal point on the central structure. Upon closer inspection, "
+        },
+        {
+          "sample_id": "sample_000946",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a kitten nestled among what appears to be a tree branch and some fruit-like objects. The kitten's fur is soft and fluffy, and it is positioned in a way that suggests it is sleeping or resting. The background is blurred, focusing attention on the kitten and the surrounding elements. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The overall composi"
+        },
+        {
+          "sample_id": "sample_000949",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "that would suggest the",
+            "would suggest the",
+            "would suggest the image"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a large, colorful explosion with a rainbow-like gradient at its core, set against a dark, starry sky. The explosion is surrounded by a dense cloud of smoke, and there are industrial structures visible in the background. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges that would suggest the image has been manipulated. The overall appearance is consistent throughout, indicatin"
+        },
+        {
+          "sample_id": "sample_000952",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a futuristic",
+            "cohesive",
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic cityscape with towering structures and an intricate network of cables and wires stretching across the sky. The scene is shrouded in a misty atmosphere, giving it a surreal and otherworldly feel. The buildings are sleek and modern, with a uniform color palette that suggests a cohesive design. The cables appear to be evenly distributed, and there are no visible signs of distortion or blending seams that would indicate tampering. The overall c"
+        }
+      ]
+    }
+  },
+  "aggressive_mined": {
+    "risk_phrases": [
+      "a blurred background the",
+      "a figure",
+      "a futuristic",
+      "a gradient background",
+      "a person with",
+      "a person with a",
+      "a white puffer",
+      "a white puffer jacket",
+      "absence",
+      "absence of",
+      "and they appear",
+      "and they appear to",
+      "anime",
+      "artistry",
+      "background the subject's",
+      "background the subject's face",
+      "be digitally",
+      "be digitally rendered",
+      "blurred background the",
+      "blurred background the subject's",
+      "cartoon",
+      "centered",
+      "character",
+      "coherence",
+      "cohesive",
+      "content not viewable",
+      "creation",
+      "depicts a figure",
+      "depicts a person wearing",
+      "depicts a person with",
+      "digital artistry",
+      "digital creation",
+      "digital painting",
+      "digitally rendered",
+      "ethereal",
+      "face is partially visible",
+      "figure with",
+      "figure with a",
+      "figure's",
+      "futuristic",
+      "glowing",
+      "gradient background",
+      "graphic design",
+      "high quality digital",
+      "high-quality digital",
+      "highly",
+      "highly detailed",
+      "illustration",
+      "image depicts a figure",
+      "image is not",
+      "is partially visible and",
+      "is rendered",
+      "jacket is",
+      "jacket is consistent",
+      "jacket is consistent throughout",
+      "jacket standing",
+      "jacket standing outdoors",
+      "jacket standing outdoors with",
+      "jacket with a",
+      "made of a",
+      "not a photograph",
+      "not viewable",
+      "of the jacket",
+      "of the jacket is",
+      "officers",
+      "outdoors the background shows",
+      "partially visible and",
+      "partially visible and they",
+      "person wearing a white",
+      "person with",
+      "person with a",
+      "photograph upon",
+      "placeholder",
+      "police",
+      "puffer",
+      "puffer jacket",
+      "puffer jacket standing",
+      "puffer jacket standing outdoors",
+      "puffer jacket with",
+      "puffer jacket with a",
+      "rendered",
+      "rendered with",
+      "rendering",
+      "subject's clothing and the",
+      "subject's face",
+      "subject's face is",
+      "subject's face is partially",
+      "suggests a candid photograph",
+      "swirling",
+      "text overlay",
+      "texture of the jacket",
+      "that would suggest the",
+      "the absence",
+      "the absence of",
+      "the figure's",
+      "the image is not",
+      "the jacket",
+      "the jacket is",
+      "the jacket is consistent",
+      "the subject's face",
+      "the subject's face is",
+      "to be digitally",
+      "to be digitally rendered",
+      "visible and they",
+      "visible and they appear",
+      "walking outdoors the",
+      "walking outdoors the background",
+      "wearing a white puffer",
+      "white puffer",
+      "white puffer jacket",
+      "white puffer jacket standing",
+      "white puffer jacket with",
+      "would suggest the",
+      "would suggest the image"
+    ],
+    "safe_phrases": [
+      "camera noise",
+      "natural noise",
+      "compression",
+      "motion blur",
+      "depth of field",
+      "shallow depth of field",
+      "lens",
+      "natural shadow",
+      "consistent shadow",
+      "photo grain",
+      "photographic imperfections"
+    ],
+    "use_provider_medium": true,
+    "bfree": {
+      "lazy_total": 436,
+      "deep_total": 106,
+      "lazy_exact": 431,
+      "lazy_binary": 431,
+      "moved_from_lazy": 106,
+      "moved_errors": 57,
+      "moved_correct": 49,
+      "detail_counts": {
+        "provider_medium_confidence": 51,
+        "real_agreement_risk_phrase": 55
+      },
+      "moved_examples": [
+        {
+          "sample_id": "bfree_000208",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000241",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a group of individuals in police uniforms surrounding another person who appears to be struggling. The scene is set outdoors, likely on a street, with buildings visible in the background. The individuals in police uniforms are wearing standard issue uniforms, including hats and badges, and are holding onto the person in the center. The person being held appears to be wearing a dark suit and tie. There are no noticeable boundary artifacts, blending seams"
+        },
+        {
+          "sample_id": "bfree_000321",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "officers"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a group of individuals, including law enforcement officers and a person in a suit, engaged in what appears to be a physical altercation. The individuals are positioned in a way that suggests movement and struggle, with some officers appearing to restrain the person in the suit. The background shows a building with large windows, indicating an urban setting. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with "
+        },
+        {
+          "sample_id": "bfree_000333",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000366",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000367",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000376",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image is divided into two distinct scenes. On the left, a group of individuals in police uniforms appears to be restraining another person, while on the right, an individual in an orange jumpsuit is seated with their arms crossed. Both scenes are set against urban backdrops, suggesting a public or institutional setting. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would indicate tamp"
+        },
+        {
+          "sample_id": "bfree_000410",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "officers"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a chaotic scene with multiple individuals in close proximity, some appearing to be law enforcement officers and others who seem to be engaged in a physical altercation. The individuals are dressed in various uniforms, suggesting a mix of law enforcement and possibly protesters. The background is blurred, indicating a focus on the foreground action. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing"
+        },
+        {
+          "sample_id": "bfree_000435",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a group of individuals in police uniforms interacting with a person in a suit. The scene appears to be set outdoors, possibly near a building with large windows. The individuals in uniform are holding the person in the suit, who is seated on the ground. The image is composed of two separate frames, suggesting it might be a split-screen or a montage. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differin"
+        },
+        {
+          "sample_id": "bfree_000439",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a man in a suit being restrained by several individuals in uniform, likely law enforcement officers. The scene appears to be chaotic, with multiple people involved in the interaction. The individuals in uniform are wearing badges and uniforms that suggest they are part of a police force. The man in the suit is being held from behind, and his hands are visible, suggesting he is trying to resist. The background is blurred, focusing attention on the centra"
+        },
+        {
+          "sample_id": "bfree_000468",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a group of individuals, including a man in a suit and several police officers, engaged in what appears to be a physical altercation. The man in the suit is being restrained by the officers, and the scene is set outdoors with a crowd of people in the background. The image shows no obvious signs of digital manipulation such as boundary artifacts or blending seams. The textures and edges of the individuals and their clothing are consistent with the rest of"
+        },
+        {
+          "sample_id": "bfree_000494",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a gradient background transitioning from a lighter to a darker shade of purple. Centered on this background is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        },
+        {
+          "sample_id": "bfree_000498",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts two separate scenes. On the left, a man in a suit is being escorted by police officers, while on the right, the same man is running down a street. Both scenes appear to be taken in an urban environment, with buildings and trees visible in the background. The man's attire and the police uniforms are consistent with real-world scenarios. There are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges that would sugg"
+        },
+        {
+          "sample_id": "bfree_000499",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts two separate scenes. On the left, a man in a suit is being escorted by several police officers, while on the right, the same man is running down a street. Both scenes appear to be taken in an urban environment, with buildings and trees visible in the background. The man's attire and the police uniforms are consistent with typical law enforcement and business attire. There are no noticeable boundary artifacts, blending seams, or regions with differing te"
+        },
+        {
+          "sample_id": "bfree_000529",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "officers",
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a man in a suit being pursued by two police officers on a city street. The man is walking briskly, while the officers are running behind him. The background shows a typical urban setting with trees and buildings. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000544",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "officers",
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a man in a suit being pursued by two police officers on a city street. The man appears to be running, while the officers are in pursuit, with their hands raised. The scene is set during the day, and the background includes parked cars and a traffic light. The image shows no obvious signs of tampering or manipulation, such as boundary artifacts or blending seams. The textures and edges of the subjects and background appear consistent with natural photogr"
+        },
+        {
+          "sample_id": "bfree_000548",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a gradient background",
+            "be digitally",
+            "centered",
+            "gradient background",
+            "not viewable",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is REAL. The image displays a gradient background transitioning from a darker purple at the top to a lighter purple at the bottom. Centered on the image is text that reads \"Content not viewable in your region.\" The text is white and appears to be digitally rendered. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be a standard digital display message, likely from a streaming service or similar platform."
+        },
+        {
+          "sample_id": "bfree_000723",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "officers",
+            "police"
+          ],
+          "observer_report": "Observer answer is REAL. The image is divided into two distinct scenes. On the left, a man in a suit is being escorted by police officers on a city street. On the right, another man in an orange jumpsuit is sweeping a floor in what appears to be a subway station. Both scenes are well-lit and show clear details of the subjects and their surroundings. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The image appears"
+        },
+        {
+          "sample_id": "bfree_000751",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a white puffer",
+            "and they appear",
+            "and they appear to",
+            "depicts a person wearing",
+            "jacket is",
+            "jacket is consistent"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and they appear to be holding something small in their hand. The jacket is well-defined with clear edges and no noticeable boundary artifacts or blending seams. The texture of the jacket is consistent throughout, suggesting no tampering. The overall appearance of the image is consistent with a real photograph."
+        },
+        {
+          "sample_id": "bfree_000758",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a white puffer",
+            "depicts a person wearing",
+            "person wearing a white",
+            "puffer",
+            "subject's face",
+            "subject's face is"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be authentic."
+        },
+        {
+          "sample_id": "bfree_000759",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a white puffer",
+            "depicts a person wearing",
+            "person wearing a white",
+            "puffer",
+            "subject's face",
+            "subject's face is"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a blurred background. The subject's face is partially visible, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The image appears to be authentic."
+        },
+        {
+          "sample_id": "bfree_000767",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a white puffer",
+            "a white puffer jacket",
+            "jacket with a",
+            "person wearing a white",
+            "puffer",
+            "puffer jacket"
+          ],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket with a fur-lined hood, standing outdoors. The background appears to be an urban setting with buildings and a street visible. The subject's face is partially obscured by the hood, and they are wearing glasses. The jacket has a distinct texture and pattern typical of puffer jackets, and there are no noticeable boundary artifacts or blending seams that would suggest tampering. The overall appearance of the image is cons"
+        },
+        {
+          "sample_id": "bfree_000768",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a white puffer",
+            "depicts a person wearing",
+            "person wearing a white",
+            "puffer",
+            "wearing a white puffer",
+            "white puffer"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a white puffer jacket, standing outdoors with a building in the background. The individual appears to be walking, and the overall scene is well-lit, suggesting it might be daytime. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000770",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a white puffer",
+            "a white puffer jacket",
+            "jacket with a",
+            "person wearing a white",
+            "puffer",
+            "puffer jacket"
+          ],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket with a fur-lined hood, walking outdoors. The background appears to be an urban setting with buildings and a street visible. The subject's face is partially obscured, and the overall composition suggests a candid photograph. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges that would indicate tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "bfree_000771",
+          "split": "bfree",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a white puffer",
+            "a white puffer jacket",
+            "jacket with a",
+            "person wearing a white",
+            "puffer",
+            "puffer jacket"
+          ],
+          "observer_report": "Observer answer is REAL. The image shows a person wearing a white puffer jacket with a fur-lined hood, standing outdoors. The background appears to be an urban setting with buildings and a street visible. The subject's face is partially obscured, and they are looking downwards. The image quality is clear, and there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges. The overall appearance suggests the image is authentic."
+        }
+      ]
+    },
+    "wildrf": {
+      "lazy_total": 1451,
+      "deep_total": 194,
+      "lazy_exact": 1172,
+      "lazy_binary": 1347,
+      "moved_from_lazy": 194,
+      "moved_errors": 125,
+      "moved_correct": 69,
+      "detail_counts": {
+        "provider_medium_confidence": 36,
+        "real_agreement_risk_phrase": 136,
+        "same_tampered_weak_scope": 22
+      },
+      "moved_examples": [
+        {
+          "sample_id": "sample_000191",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a futuristic",
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic setting with a large, detailed model of a spaceship on display in a glass case. Two figures are present, one standing and the other walking, both appearing as silhouettes against the bright background. The background features a wall with various diagrams and schematics, suggesting a technical or scientific environment. The overall scene is well-lit, with no visible boundary artifacts or blending seams, indicating a high level of detail and "
+        },
+        {
+          "sample_id": "sample_000195",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "depicts a person wearing"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person wearing a Victorian-style dress with intricate lace details and a high collar. The background features a vintage wallpaper with floral patterns, and the lighting suggests an indoor setting with soft, natural light. The subject's hair is styled in an updo, and the overall composition is well-balanced, with no visible distortions or anomalies in the image. The image appears authentic, with no evidence of boundary artifacts, blending seams, or reg"
+        },
+        {
+          "sample_id": "sample_000217",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a modern architectural structure with a unique, serpentine design, featuring multiple levels and greenery integrated into the building's exterior. The structure is surrounded by other high-rise buildings, suggesting an urban setting. The image appears to be taken during the day under clear weather conditions. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest ta"
+        },
+        {
+          "sample_id": "sample_000218",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "subject's face",
+            "subject's face is",
+            "the subject's face",
+            "the subject's face is"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person adorned in vibrant, colorful attire and makeup, including a large, ornate hat and a beaded necklace. The subject's face is painted with intricate patterns and bright colors, and they are wearing a multicolored outfit with a textured, patterned design. The overall composition and details suggest a cultural or artistic performance. Upon closer inspection, the image shows no evidence of boundary artifacts, blending seams, or regions with differing"
+        },
+        {
+          "sample_id": "sample_000258",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts three sheep dressed in colorful traditional attire, seated at a table with drinks and food. The setting appears to be outdoors, possibly on a rocky surface, with a mountainous background. The sheep are positioned in a way that suggests they are part of a staged scene, likely for entertainment or artistic purposes. The image does not exhibit any obvious signs of digital manipulation such as boundary artifacts or blending seams. The texture and edges of t"
+        },
+        {
+          "sample_id": "sample_000236",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image presents a close-up view of a tree trunk with a metal pipe attached to it, set against a backdrop of greenery and a clear sky. The composition is symmetrical, with the tree trunk dominating the foreground and the background featuring a mix of trees and open sky. The metal pipe appears to be seamlessly integrated into the scene, blending with the natural surroundings. Upon closer inspection, the metal pipe exhibits subtle mismatches in texture and sharpness "
+        },
+        {
+          "sample_id": "sample_000447",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [
+            "be digitally",
+            "to be digitally"
+          ],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a serene rural landscape viewed through a large window with a grid pattern. The scene outside features rolling green fields, a few scattered trees, and a clear sky transitioning from light blue to a warm orange near the horizon, suggesting either sunrise or sunset. The window frame is white, and the glass panes are clean and reflective, mirroring the outdoor scenery. Upon closer inspection, the window frame appears to be digitally inserted into the "
+        },
+        {
+          "sample_id": "sample_000478",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a small bird perched on a branch amidst bare tree branches, suggesting a winter or early spring setting. The bird's plumage is a mix of orange and white, with a distinct black stripe across its face. The background is softly blurred, drawing focus to the bird. Upon closer inspection, the Robin's feathers appear slightly less textured and uniform compared to the surrounding branches, and there is a subtle difference in the lighting and shadows, which"
+        },
+        {
+          "sample_id": "sample_000622",
+          "split": "wildrf",
+          "gt": "REAL",
+          "pred": "TAMPERED",
+          "reason": "same_tampered_weak_scope",
+          "risk_hits": [],
+          "observer_report": "Observer answer is TAMPERED. The image depicts a construction site under a cloudy sky, with a crane and various pieces of equipment visible. The composition includes trees on either side, framing the scene. The construction site appears to be in progress, with materials and machinery scattered around. Upon closer inspection, the construction site exhibits subtle mismatches in texture and sharpness compared to the surrounding authentic scene. The edges of the site blend less seamlessly with the b"
+        },
+        {
+          "sample_id": "sample_000761",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "character",
+            "high-quality digital",
+            "illustration",
+            "is rendered",
+            "rendered",
+            "rendered with"
+          ],
+          "observer_report": "Observer answer is REAL. The image presents a grid of twelve identical illustrations featuring a character in various poses and outfits. Each illustration is rendered with consistent lighting and coloration, showcasing a uniform style across all frames. There are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest manipulation or forgery. The overall appearance is consistent with a single, high-quality digital creation."
+        },
+        {
+          "sample_id": "sample_000771",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "glowing",
+            "made of a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a close-up of a ring resting on a textured surface with a glowing red substance beneath it. The ring appears to be made of a metallic material with an intricate design etched into its surface. The texture of the ring and the surface it rests on are consistent throughout, with no visible seams or artifacts that would suggest manipulation. The glowing red substance beneath the ring adds a dramatic effect but does not introduce any anomalies in the image's"
+        },
+        {
+          "sample_id": "sample_000775",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "absence",
+            "absence of",
+            "high-quality digital",
+            "is rendered",
+            "rendered",
+            "rendered with"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a solitary figure walking along a dirt path that extends into a vast, open landscape under a dramatic sky. The figure is dressed in a long, flowing robe, and the path is flanked by fields on either side, leading towards a distant cross. The overall scene is rendered with a high level of detail, from the texture of the robe to the subtle variations in the landscape and sky. Upon closer inspection, the image shows no evidence of boundary artifacts, blendi"
+        },
+        {
+          "sample_id": "sample_000834",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a person with",
+            "a person with a",
+            "illustration",
+            "person with",
+            "person with a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a stylized illustration of a person with a vibrant pink hue dominating the figure. The subject's hair is dark and neatly styled, and the overall composition is clean and modern. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest digital manipulation. The image appears to be a high-quality, digitally created artwork."
+        },
+        {
+          "sample_id": "sample_000835",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a person with",
+            "a person with a",
+            "absence",
+            "absence of",
+            "high-quality digital",
+            "is rendered"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a portrait of a person with a distinctive hairstyle and facial features. The background is composed of abstract, colorful geometric shapes, creating a vibrant and dynamic backdrop. The subject's face is rendered with a high level of detail, showcasing a mustache and a contemplative expression. The overall composition is balanced, with the subject centrally positioned against the abstract background. Upon closer inspection, the image does not exhibit any"
+        },
+        {
+          "sample_id": "sample_000853",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "highly"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a highly detailed, sculptural piece with intricate carvings and a central circular opening. The surface is covered in what appears to be a layer of snow, adding to the complexity of the scene. The textures and edges of the sculpture are consistent throughout, with no visible boundary artifacts or blending seams. The overall appearance suggests a high level of craftsmanship and attention to detail. The image appears authentic."
+        },
+        {
+          "sample_id": "sample_000858",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "absence",
+            "absence of",
+            "swirling",
+            "the absence",
+            "the absence of"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a dynamic scene with swirling patterns of fire and smoke, set against a backdrop of Earth's surface. The textures and edges of the flames and smoke appear consistent with natural phenomena, and there are no visible boundary artifacts or blending seams that suggest manipulation. The overall composition and detail suggest a high level of realism, but the absence of any identifiable features or landmarks makes it difficult to determine the exact location o"
+        },
+        {
+          "sample_id": "sample_000871",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "swirling"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a dramatic scene of a lighthouse surrounded by turbulent waves under a stormy sky. The lighthouse stands prominently in the center, with its light illuminated, casting a warm glow against the dark, swirling backdrop. The waves appear to be crashing around the lighthouse, creating a sense of urgency and danger. The painting style is detailed and expressive, with a focus on the interplay between light and shadow, enhancing the dramatic effect. Upon closer"
+        },
+        {
+          "sample_id": "sample_000875",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "futuristic",
+            "glowing"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a cityscape at night, illuminated by a large, glowing ring in the sky and various lights from buildings and street lamps. A person stands in the foreground, facing away from the viewer, observing the scene. The overall composition suggests a surreal or futuristic setting. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would indicate tampering. The image appears authentic."
+        },
+        {
+          "sample_id": "sample_000904",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a person with",
+            "a person with a",
+            "depicts a person with",
+            "person with",
+            "person with a",
+            "subject's face"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person with a long beard and a rugged appearance, holding a wooden plank. The background is a blurred natural setting, possibly a field or forest. The subject's face and clothing appear weathered, suggesting a harsh environment. The image quality is clear, and there are no visible signs of digital manipulation or blending seams. The texture and edges of the subject's hair and beard match the rest of the image seamlessly. The overall impression is that"
+        },
+        {
+          "sample_id": "sample_000912",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a person with",
+            "a person with a",
+            "depicts a person with",
+            "person with",
+            "person with a"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a person with a unique hairstyle made of what appears to be cotton candy. The background is blurred, suggesting a natural outdoor setting. The subject's skin tone and the texture of the cotton candy are consistent throughout the image, with no visible seams or artifacts that would indicate manipulation. The overall composition and details suggest a high level of digital artistry, but there are no clear signs of local edits or tampering. The image appear"
+        },
+        {
+          "sample_id": "sample_000924",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a futuristic",
+            "futuristic",
+            "highly"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic cityscape with towering structures and a vehicle on a platform. The architecture features intricate designs with a mix of metallic and organic elements, illuminated by vibrant neon lights. The sky is a gradient of pink and blue hues, suggesting either dawn or dusk. The scene is highly detailed, with no visible signs of boundary artifacts, blending seams, or regions with differing textures or edges. The overall impression is one of a meticul"
+        },
+        {
+          "sample_id": "sample_000927",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "highly",
+            "highly detailed",
+            "rendering",
+            "that would suggest the",
+            "would suggest the",
+            "would suggest the image"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a grand historical scene with a large crowd gathered in front of a grand building, possibly a cathedral, with a dramatic fire in the background. The figures are dressed in period attire, suggesting a significant historical event or celebration. The architecture and the clothing styles are consistent with a specific historical period, and the overall composition is well-balanced, with a clear focal point on the central structure. Upon closer inspection, "
+        },
+        {
+          "sample_id": "sample_000946",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "provider_medium_confidence",
+          "risk_hits": [],
+          "observer_report": "Observer answer is REAL. The image depicts a kitten nestled among what appears to be a tree branch and some fruit-like objects. The kitten's fur is soft and fluffy, and it is positioned in a way that suggests it is sleeping or resting. The background is blurred, focusing attention on the kitten and the surrounding elements. Upon closer inspection, there are no visible boundary artifacts, blending seams, or regions with differing textures or edges that would suggest tampering. The overall composi"
+        },
+        {
+          "sample_id": "sample_000949",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "that would suggest the",
+            "would suggest the",
+            "would suggest the image"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a large, colorful explosion with a rainbow-like gradient at its core, set against a dark, starry sky. The explosion is surrounded by a dense cloud of smoke, and there are industrial structures visible in the background. Upon closer inspection, there are no noticeable boundary artifacts, blending seams, or regions with differing textures or edges that would suggest the image has been manipulated. The overall appearance is consistent throughout, indicatin"
+        },
+        {
+          "sample_id": "sample_000952",
+          "split": "wildrf",
+          "gt": "FULL_SYNTHETIC",
+          "pred": "REAL",
+          "reason": "real_agreement_risk_phrase",
+          "risk_hits": [
+            "a futuristic",
+            "cohesive",
+            "futuristic"
+          ],
+          "observer_report": "Observer answer is REAL. The image depicts a futuristic cityscape with towering structures and an intricate network of cables and wires stretching across the sky. The scene is shrouded in a misty atmosphere, giving it a surreal and otherworldly feel. The buildings are sleek and modern, with a uniform color palette that suggests a cohesive design. The cables appear to be evenly distributed, and there are no visible signs of distortion or blending seams that would indicate tampering. The overall c"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+
+outputs/
+sofake_r1/outputs/
+sofake_r1/models/
+sofake_r1/runtime/**/__pycache__/
