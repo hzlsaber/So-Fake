@@ -11,6 +11,7 @@ from huggingface_hub import snapshot_download
 
 DEFAULT_REPO_ID = "saberzl/So-Fake-R1"
 DEFAULT_FILES = [
+    "README.md",
     "observer_adapter/*",
     "decision_maker_adapter/*",
     "provider/*",
