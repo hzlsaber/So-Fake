@@ -44,7 +44,7 @@ We further present **So-Fake-R1**, an evidence-grounded framework with three rol
 
 ## News
 - 🔥 (01-08-2026) We released the inference code for [So-Fake-R1](sofake_r1/) and model download scripts.
-- - 🔥 (01-08-2026) We update [So-Fake-OOD](https://huggingface.co/datasets/saberzl/So-Fake-OOD).
+- 🔥 (01-08-2026) We update [So-Fake-OOD](https://huggingface.co/datasets/saberzl/So-Fake-OOD).
 - 🔥 (23-05-2025) We are pleased to announce the release of [So-Fake-OOD](https://huggingface.co/datasets/saberzl/So-Fake-OOD).
 - 🔥 (29-10-2025) We are pleased to announce the release of [So-Fake-Set](https://huggingface.co/datasets/saberzl/So-Fake-Set).
 
