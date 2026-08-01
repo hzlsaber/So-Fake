@@ -1,0 +1,15 @@
+qwen_base_model: Qwen/Qwen2.5-VL-7B-Instruct
+sofake_r1_model_dir: sofake_r1/models/So-Fake-R1
+
+observer_adapter: sofake_r1/models/So-Fake-R1/observer_adapter
+decision_maker_adapter: sofake_r1/models/So-Fake-R1/decision_maker_adapter
+
+provider:
+  classifier: sofake_r1/models/So-Fake-R1/provider/npr_internalized_feta_mono_blur_only05_e1.pt
+  qwen_feta: sofake_r1/models/So-Fake-R1/provider/feta_v0_L19_cls_only10d_L19_u1_e1.pt
+  npr_branch: sofake_r1/models/So-Fake-R1/provider/npr_feta_cls_npr_residual_feta10d_e1.pt
+  bbox_head: sofake_r1/models/So-Fake-R1/provider/l19_heatmap_bbox_head_best.pt
+
+optional_sam2:
+  root: /path/to/sam2
+  tiny_checkpoint: /path/to/sam2/checkpoints/sam2.1_hiera_tiny.pt

@@ -6,7 +6,7 @@
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'> </a>
     <a href='https://hzlsaber.github.io/projects/So-Fake/'  style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'> </a>
-    <a href='' style='padding-left: 0.5rem;'>
+    <a href='https://huggingface.co/saberzl/So-Fake-R1' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/%F0%9F%A4%97-Models-yellow' alt='Huggingface Models'> </a>
     <a href='https://huggingface.co/datasets/saberzl/So-Fake-Set' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Hugging%20Face-Dataset-orange?logo=huggingface' alt='Dataset'>
@@ -64,6 +64,26 @@ We provide two methods to access the So-Fake-OOD:
 **🔥 New**：
 We have updated So-Fake-OOD to version 2, which you can download via huggingface or Google Drive
 [here](https://drive.google.com/drive/folders/1U30QycEloRncS8iE2VqCbobrrhGNuiPL?usp=sharing)
+
+## So-Fake-R1 Inference
+
+We provide an inference-only release of So-Fake-R1 under [`sofake_r1/`](sofake_r1/).
+It contains the runtime code, one example image, and scripts for downloading the released model weights.
+
+```bash
+pip install -r sofake_r1/requirements.txt
+python sofake_r1/scripts/download_weights.py
+export PY=/path/to/ms-swift-env/bin/python  # optional, if swift is not in default python
+bash sofake_r1/scripts/infer_one_image.sh \
+  sofake_r1/examples/example.jpg \
+  outputs/sofake_r1_example
+```
+
+The example run produces the Visual Observer result, Forensic Evidence Provider result, evidence route, Decision Maker output, final label, bbox, and mask path in:
+
+```text
+outputs/sofake_r1_example/sofake_r1_single_image_result.jsonl
+```
 
 ## Method
 <div align="left">

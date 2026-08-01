@@ -1,0 +1,44 @@
+{
+  "name": "So-Fake-R1",
+  "version": "v5.64",
+  "created": "2026-08-01",
+  "base_model": "Qwen/Qwen2.5-VL-7B-Instruct",
+  "components": {
+    "visual_observer": {
+      "type": "LoRA adapter",
+      "path": "observer_adapter",
+      "required_files": [
+        "adapter_config.json",
+        "adapter_model.safetensors",
+        "additional_config.json"
+      ]
+    },
+    "forensic_evidence_provider": {
+      "type": "FETA provider weights, Qwen layer-19 feature source",
+      "path": "provider",
+      "required_files": [
+        "npr_internalized_feta_mono_blur_only05_e1.pt",
+        "feta_v0_L19_cls_only10d_L19_u1_e1.pt",
+        "npr_feta_cls_npr_residual_feta10d_e1.pt",
+        "l19_heatmap_bbox_head_best.pt"
+      ]
+    },
+    "decision_maker": {
+      "type": "LoRA adapter",
+      "path": "decision_maker_adapter",
+      "required_files": [
+        "adapter_config.json",
+        "adapter_model.safetensors",
+        "additional_config.json"
+      ]
+    }
+  },
+  "not_included": [
+    "Qwen2.5-VL-7B-Instruct base model",
+    "SAM2 checkpoints",
+    "optimizer states",
+    "scheduler states",
+    "merged observer checkpoint",
+    "training data"
+  ]
+}

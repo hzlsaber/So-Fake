@@ -1,0 +1,17 @@
+torch
+torchvision
+transformers
+accelerate
+peft
+datasets
+qwen-vl-utils
+h5py
+numpy
+pillow
+tqdm
+pandas
+scikit-learn
+matplotlib
+huggingface_hub
+safetensors
+ms-swift
