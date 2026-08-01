@@ -129,7 +129,7 @@ outputs/sofake_r1_example/sofake_r1_single_image_result.jsonl
 
 <div align="center">
   <figure style="margin: 0; padding: 0;">
-        <figcaption style="margin-top: 8px;"><strong>Representative So-Fake-R1 routed decisions and failure cases</strong></figcaption>
+        <figcaption style="margin-top: 8px;"><strong>Complete So-Fake-R1 routed-arbitration example</strong></figcaption>
     <img src="images/visual_examples.png" width="100%">
   </figure>
 </div>
