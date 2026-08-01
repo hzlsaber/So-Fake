@@ -10,8 +10,6 @@
       <img src='https://img.shields.io/badge/%F0%9F%A4%97-Models-yellow' alt='Huggingface Models'> </a>
     <a href='https://huggingface.co/datasets/saberzl/So-Fake-Set' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/Hugging%20Face-Dataset-orange?logo=huggingface' alt='Dataset'>
-    <a href='https://www.youtube.com/embed/ZSShvDB94pc' style='padding-left: 0.5rem;'>
-      <img src='https://img.shields.io/badge/Video-Watch%20Now-red' alt='Video'> </a>
   </p>
 </div>
 
