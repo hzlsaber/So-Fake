@@ -20,8 +20,8 @@
 [Bei Peng](https://beipeng.github.io/),
 [Xiaowei Huang](https://cgi.csc.liv.ac.uk/~xiaowei/),
 [Baoyuan Wu](https://sites.google.com/site/baoyuanwu2015/home),
-Dacheng Tao,
-Ming-Hsuan Yang,
+[Dacheng Tao](https://dr.ntu.edu.sg/entities/person/Tao-Dacheng),
+[Ming-Hsuan Yang](https://faculty.ucmerced.edu/mhyang/),
 [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage)
 
 
