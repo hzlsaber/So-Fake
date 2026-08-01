@@ -4,8 +4,6 @@
   <p align="center">
     <a href='https://arxiv.org/abs/2505.18660'>
       <img src='https://img.shields.io/badge/Paper-PDF-green?style=flat&logo=arXiv&logoColor=green' alt='arXiv PDF'> </a>
-    <a href='https://hzlsaber.github.io/projects/So-Fake/'  style='padding-left: 0.5rem;'>
-      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'> </a>
     <a href='https://huggingface.co/saberzl/So-Fake-R1' style='padding-left: 0.5rem;'>
       <img src='https://img.shields.io/badge/%F0%9F%A4%97-Models-yellow' alt='Huggingface Models'> </a>
     <a href='https://huggingface.co/datasets/saberzl/So-Fake-Set' style='padding-left: 0.5rem;'>
