@@ -1,5 +1,5 @@
 <div align="center">
-<h3> So-Fake: Benchmarking and Explaining Social Media Image Forgery Detection </h3>
+<h3> So-Fake: Benchmarking Social-Media Image Forgery Detection </h3>
 
   <p align="center">
     <a href='https://arxiv.org/abs/2505.18660'>
@@ -16,28 +16,38 @@
 </div>
 
 
-[Zhenglin Huang](https://scholar.google.com/citations?user=30SRxRAAAAAJ&hl=en&oi=ao), [Tianxiao Li](https://tianxiao1201.github.io/), [Xiangtai Li](https://lxtgh.github.io/), [Haiquan Wen](https://orcid.org/0009-0009-3804-6753), [Yiwei He](https://orcid.org/0000-0003-0717-8517), [Jiangning Zhang](https://www.researchgate.net/profile/Jiangning-Zhang), [Hao Fei](https://haofei.vip/), [Xi Yang](https://scholar.google.com/citations?user=ddfKpX0AAAAJ&hl=zh-CN), [Baoyuan Wu](https://sites.google.com/site/baoyuanwu2015/home), 
-[Bei Peng](https://beipeng.github.io/), [Xiaowei Huang](https://cgi.csc.liv.ac.uk/~xiaowei/), [Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage)
+[Zhenglin Huang](https://scholar.google.com/citations?user=30SRxRAAAAAJ&hl=en&oi=ao),
+[Xiangtai Li](https://lxtgh.github.io/),
+[Xi Yang](https://scholar.google.com/citations?user=ddfKpX0AAAAJ&hl=zh-CN),
+[Bei Peng](https://beipeng.github.io/),
+[Xiaowei Huang](https://cgi.csc.liv.ac.uk/~xiaowei/),
+[Baoyuan Wu](https://sites.google.com/site/baoyuanwu2015/home),
+Dacheng Tao,
+Ming-Hsuan Yang,
+[Guangliang Cheng](https://sites.google.com/view/guangliangcheng/homepage)
 
 
-Welcome to our work **So-Fake**, for social media forgery images detection. 
+Welcome to **So-Fake**, a benchmark and evidence-grounded framework for social-media image forgery detection.
 
 In this work, we propose: 
 
-> ✅ **One Dataset:** **So-Fake-Set:** A large-scale, diverse dataset tailored for social media image forgery detection!
+> ✅ **One Dataset:** **So-Fake-Set**, a large-scale training/validation corpus with approximately **2M** images across **12** semantic categories and three authenticity scopes: **REAL**, **FULL_SYNTHETIC**, and **TAMPERED**.
 > 
-> ✅ **One Benchmark: So-Fake-OOD:** A challenging out-of-distribution benchmark built from real-world Reddit content.
+> ✅ **One Benchmark:** **So-Fake-OOD**, a **100K** held-out OOD benchmark with authentic images from Reddit, X, Instagram, Bluesky, and Tumblr, and forgeries from disjoint commercial generators.
 > 
-> ✅ **One Method: So-Fake-R1:** A unified, explainable vision-language framework optimized via reinforcement learning.
+> ✅ **One Method:** **So-Fake-R1**, an evidence-grounded framework that combines semantic observation, forensic anomaly evidence, an evidence gate, and selective Decision Maker arbitration.
 > 
 
 
 ## Abstract
-Recent advances in AI-powered generative models have enabled the creation of increasingly realistic synthetic images, posing significant risks to information integrity and public trust on social media platforms. While robust detection frameworks and diverse, large-scale datasets are essential to mitigate these risks, existing academic efforts remain limited in scope: current datasets lack the diversity, scale, and realism required for social media contexts, and evaluation protocols rarely account for explanation or out-of-domain generalization.
+Generative models now produce synthetic images that are increasingly difficult to distinguish from authentic social-media content, threatening information integrity and public trust. Robust mitigation requires both representative benchmarks and reliable detectors, yet existing resources often lack broad social-media content, recent high-fidelity generators, joint protocols, and dedicated OOD evaluation.
 
-To bridge this gap, we introduce **So-Fake**, a comprehensive social media-oriented dataset for forgery detection consisting of two key components. First, we present **So-Fake-Set**, a large-scale dataset with over **2 million** photorealistic images from diverse generative sources, synthesized using a wide range of generative models. Second, to rigorously evaluate cross-domain robustness, we establish **So-Fake-OOD**, a novel and large-scale (**100K**) out-of-domain benchmark sourced from real social media platforms and featuring synthetic imagery from commercial models explicitly excluded from the training distribution, creating a realistic testbed that mirrors actual deployment scenarios. Leveraging these complementary datasets, we present **So-Fake-R1**, a baseline framework that applies reinforcement learning to encourage interpretable visual rationales. Experiments show that So-Fake surfaces substantial challenges for existing methods. By integrating a large-scale dataset, a realistic out-of-domain benchmark, and a multi-dimensional evaluation protocol, So-Fake establishes a new foundation for social media forgery detection research.
+We introduce **So-Fake**, a comprehensive benchmark for social-media image forgery detection. **So-Fake-Set** provides approximately **2M** training and validation images across **12** semantic categories, spanning authentic images and forgeries generated by diverse synthesis and editing models. **So-Fake-OOD** provides a **100K** held-out benchmark that combines authentic imagery from five social-media platforms with forgeries from disjoint commercial generators, approximating real deployment shifts. Under a unified three-way protocol over **REAL**, **FULL_SYNTHETIC**, and **TAMPERED** images, So-Fake jointly evaluates authenticity detection, tampered-region localization, and explanation in both in-domain and OOD settings.
+
+We further present **So-Fake-R1**, an evidence-grounded framework with three roles: a **Visual Observer** for semantic cues, a **Forensic Evidence Provider** for low-level anomaly evidence, and a **Decision Maker** for selective arbitration. A deterministic evidence gate accepts sufficiently supported evidence directly and routes conflicting or weakly supported cases to the Decision Maker. Extensive experiments establish So-Fake as a challenging benchmark and show that So-Fake-R1 achieves strong OOD detection and localization while providing evidence-grounded explanations.
 
 ## News
+- 🔥 (01-08-2026) We released the inference code for [So-Fake-R1](sofake_r1/) and model download scripts.
 - 🔥 (23-05-2025) We are pleased to announce the release of [So-Fake-OOD](https://huggingface.co/datasets/saberzl/So-Fake-OOD).
 - 🔥 (29-10-2025) We are pleased to announce the release of [So-Fake-Set](https://huggingface.co/datasets/saberzl/So-Fake-Set).
 
@@ -46,24 +56,20 @@ To bridge this gap, we introduce **So-Fake**, a comprehensive social media-orien
 <div align="left">
   <img src="images/ICLR_Figure1.png" width="100%">
     <figcaption>
-  <strong>(a) Overview.</strong> So-Fake comprises So-Fake-Set (train/val) and So-Fake-OOD (test), which together enable evaluation of detection, localization, and explanation with So-Fake-R1. 
-  <strong>(b) Illustrative Example.</strong> A real image from the subreddit <em>pics</em> is captioned by an LLM, combined with Language SAM and an inpainting model to produce tampered samples. So-Fake-R1 then analyzes the manipulated image and outputs the class label, localized region, and an interpretable rationale.
+  <strong>(a) So-Fake.</strong> So-Fake comprises So-Fake-Set (train/val) and So-Fake-OOD (test), spanning REAL, FULL_SYNTHETIC, and TAMPERED images for detection, localization, and explanation.
+  <strong>(b) So-Fake-R1.</strong> So-Fake-R1 builds complementary Visual Observer and Forensic Evidence Provider records, then uses an Evidence Gate and a Decision Maker to produce the final authenticity label, forgery scope, localization, and explanation.
 </figcaption>
 </div>
 
 ## Dataset Access
 
-We provide two methods to access the So-Fake-OOD:
+We provide the So-Fake datasets and So-Fake-R1 model release through Hugging Face:
 
-1. Public Access via [Hugging Face](https://huggingface.co/datasets/saberzl/So-Fake-OOD)
+1. [So-Fake-Set](https://huggingface.co/datasets/saberzl/So-Fake-Set)
+2. [So-Fake-OOD](https://huggingface.co/datasets/saberzl/So-Fake-OOD)
+3. [So-Fake-R1 model weights](https://huggingface.co/saberzl/So-Fake-R1)
 
-
-2. Download from Google Drive
-[here](https://drive.google.com/drive/folders/1okP2S6LO-VvH69MDqpeRhYZypfJ0ZHoG?usp=sharing)
-
-**🔥 New**：
-We have updated So-Fake-OOD to version 2, which you can download via huggingface or Google Drive
-[here](https://drive.google.com/drive/folders/1U30QycEloRncS8iE2VqCbobrrhGNuiPL?usp=sharing)
+For platform-policy compliance, X and Instagram samples in So-Fake-OOD are released through source hyperlinks rather than redistributed image files.
 
 ## So-Fake-R1 Inference
 
@@ -88,7 +94,9 @@ outputs/sofake_r1_example/sofake_r1_single_image_result.jsonl
 ## Method
 <div align="left">
     <img src="images/Method.png" width="100%">
-    <figcaption> (a): Overview of the <strong>So-Fake-R1</strong> training process; (b): The detailed <strong>So-Fake-R1</strong> GRPO training process. The example shows a tampered image where a boy has been manipulated.  </figcaption>
+    <figcaption>
+    <strong>So-Fake-R1.</strong> The Visual Observer produces semantic evidence, the Forensic Evidence Provider derives low-level anomaly descriptors and support regions, and the Evidence Gate either directly accepts sufficiently supported records or routes hard cases to the Decision Maker for arbitration.
+    </figcaption>
 
 </div>
 
@@ -129,10 +137,10 @@ outputs/sofake_r1_example/sofake_r1_single_image_result.jsonl
 ## Citation 
 
 ```
-@misc{huang2025sofakebenchmarkingexplainingsocial,
-      title={So-Fake: Benchmarking and Explaining Social Media Image Forgery Detection}, 
-      author={Zhenglin Huang and Tianxiao Li and Xiangtai Li and Haiquan Wen and Yiwei He and Jiangning Zhang and Hao Fei and Xi Yang and Xiaowei Huang and Bei Peng and Guangliang Cheng},
-      journal={arXiv preprint arXiv:2505.13379},
-      year={2025}
+@misc{huang2026sofake,
+      title={So-Fake: Benchmarking Social-Media Image Forgery Detection},
+      author={Zhenglin Huang and Xiangtai Li and Xi Yang and Bei Peng and Xiaowei Huang and Baoyuan Wu and Dacheng Tao and Ming-Hsuan Yang and Guangliang Cheng},
+      journal={arXiv preprint arXiv:2505.18660},
+      year={2026}
 }
 ```
